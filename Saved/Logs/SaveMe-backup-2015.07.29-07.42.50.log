@@ -1,0 +1,1569 @@
+﻿[2015.07.28-19.03.34:411][  0]Log file open, 07/28/15 21:03:34
+[2015.07.28-19.03.34:411][  0]LogInit:Display: Running engine for game: SaveMe
+[2015.07.28-19.03.34:411][  0]LogInit:Display: RandInit(-519526118) SRandInit(-519526117).
+[2015.07.28-19.03.34:411][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.28-19.03.34:411][  0]LogStats: Stats thread started
+[2015.07.28-19.03.34:411][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.28-19.03.34:411][  0]LogInit: API Version: 2579680
+[2015.07.28-19.03.34:411][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.28-19.03.34:412][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.28-19.03.34:412][  0]LogInit: Build Configuration: Development
+[2015.07.28-19.03.34:412][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.28-19.03.34:412][  0]LogInit: Command line:  
+[2015.07.28-19.03.34:412][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.28-19.03.34:412][  0]LogInit: Rocket: 1
+[2015.07.28-19.03.34:495][  0]LogInit: Using libcurl 7.41.0
+[2015.07.28-19.03.34:495][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.28-19.03.34:495][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.28-19.03.34:495][  0]LogInit:  - other features:
+[2015.07.28-19.03.34:495][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.28-19.03.34:495][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.28-19.03.34:495][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.28-19.03.34:495][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.28-19.03.34:495][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.28-19.03.34:495][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.28-19.03.34:502][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.28-19.03.34:502][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.28-19.03.34:502][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.28-19.03.34:502][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.28-19.03.34:583][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.28-19.03.34:676][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.28-19.03.34:730][  0]LogInit: Object subsystem initialized
+[2015.07.28-19.03.34:737][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.28-19.03.34:737][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.28-19.03.34:737][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.28-19.03.34:737][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.28-19.03.34:737][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.28-19.03.34:737][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.28-19.03.34:740][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.28-19.03.34:740][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.28-19.03.34:787][  0]LogInit: Computer: SLB-H7VRKQ1
+[2015.07.28-19.03.34:787][  0]LogInit: User: ALorente
+[2015.07.28-19.03.34:787][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.28-19.03.34:787][  0]LogInit: High frequency timer resolution =2.630830 MHz
+[2015.07.28-19.03.34:787][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.07.28-19.03.34:788][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.03.34:788][  0]LogMemory: Process Physical Memory: 49.10 MB used, 49.10 MB peak
+[2015.07.28-19.03.34:788][  0]LogMemory: Process Virtual Memory: 23.25 MB used, 23.25 MB peak
+[2015.07.28-19.03.34:788][  0]LogMemory: Physical Memory: 2527.25 MB used, 8148.89 MB total
+[2015.07.28-19.03.34:788][  0]LogMemory: Virtual Memory: 283.23 MB used, 8388608.00 MB total
+[2015.07.28-19.03.34:944][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.28-19.03.36:607][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.28-19.03.41:582][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 2000M (Feature Level 11_0)
+[2015.07.28-19.03.41:582][  0]LogD3D11RHI: Adapter has 1999MB of dedicated video memory, 0MB of dedicated system memory, and 3818MB of shared system memory, 1 output[s]
+[2015.07.28-19.03.41:582][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.28-19.03.41:608][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.03.41:608][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.28-19.03.41:608][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.28-19.03.41:679][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.28-19.03.41:735][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.28-19.03.50:780][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.28-19.03.50:919][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.28-19.03.51:039][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.28-19.03.51:159][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.28-19.03.51:287][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.28-19.03.51:404][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.28-19.03.51:518][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.28-19.03.51:625][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.28-19.03.51:726][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.28-19.03.51:834][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.28-19.03.51:964][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.28-19.03.52:084][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.28-19.03.52:384][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.28-19.03.52:476][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.28-19.03.52:553][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.28-19.03.52:648][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.28-19.03.52:648][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.28-19.03.54:322][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.28-19.03.54:570][  0]LogDerivedDataCache: Loaded boot cache 0.25s 53MB C:/Users/ALorente/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.28-19.03.54:570][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ALorente/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.28-19.03.54:570][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Workspace/Code/BitBucket/SaveMe/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.28-19.03.54:570][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.28-19.03.54:571][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Workspace/Code/BitBucket/SaveMe/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.28-19.03.54:571][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.28-19.03.55:633][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.28-19.03.55:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ALorente/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.28-19.03.57:130][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.28-19.03.57:176][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.28-19.03.57:178][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.28-19.03.57:351][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.28-19.03.57:351][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.28-19.04.00:159][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.28-19.04.06:787][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.28-19.04.08:897][  0]SourceControl: Info Source control is disabled
+[2015.07.28-19.04.09:041][  0]SourceControl: Info Source control is disabled
+[2015.07.28-19.04.09:112][  0]SourceControl: Info Source control is disabled
+[2015.07.28-19.04.09:175][  0]SourceControl: Info Source control is disabled
+[2015.07.28-19.04.12:532][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.28-19.04.12:532][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.28-19.04.13:508][  0]LogEngine: Initializing Engine...
+[2015.07.28-19.04.13:565][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.28-19.04.13:573][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.28-19.04.15:567][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.28-19.04.15:611][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.04.15:794][  0]LogInit: FAudioDevice initialized.
+[2015.07.28-19.04.15:961][  0]LogDerivedDataCache: Saved boot cache 0.17s 53MB C:/Users/ALorente/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.28-19.04.15:999][  0]LogInit: Texture streaming: Disabled
+[2015.07.28-19.04.16:204][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.28-19.04.16:204][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.28-19.04.16:205][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d64b808f4af5ec925fa497bbc1d7337b|81643a0ffa4546099291d92070e6ccbc|952f4c26-71e8-47b2-8a9a-557a0707c735
+[2015.07.28-19.04.16:205][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.28-19.04.16:551][  0]LogInit: Transaction tracking system initialized
+[2015.07.28-19.04.17:770][  0]BlueprintLog: New page: Editor Load
+[2015.07.28-19.04.18:016][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.07.28-19.04.18:020][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.28-19.04.31:383][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.28-19.04.31:386][  0]LogConsoleResponse:Display: 
+[2015.07.28-19.04.35:100][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.28-19.04.39:235][  0]SourceControl: Info Source control is disabled
+[2015.07.28-19.04.39:235][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.28-19.04.39:239][  0]LightingResults: New page: Lighting Build
+[2015.07.28-19.04.39:749][  0]MapCheck: New page: Map Check
+[2015.07.28-19.04.39:749][  0]LightingResults: New page: Lighting Build
+[2015.07.28-19.04.39:896][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015217880
+[2015.07.28-19.04.47:282][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.07.28-19.04.47:350][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.28-19.04.47:712][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.28-19.04.48:293][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 580.45ms to complete.
+[2015.07.28-19.04.48:357][  0]LogFileHelpers: Loading map 'Template_Default' took 9.121
+[2015.07.28-19.04.50:024][  0]LogCollectionManager: Loaded 0 collections in 0.044873 seconds
+[2015.07.28-19.04.50:176][  0]LogContentBrowser: Native class hierarchy populated in 0.1513 seconds. Added 1792 classes and 301 folders.
+[2015.07.28-19.04.50:990][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0043 seconds. Added 0 classes and 0 folders.
+[2015.07.28-19.04.51:416][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2015.07.28-19.04.52:224][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2015.07.28-19.04.52:802][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.28-19.04.52:809][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.04.52:996][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.28-19.04.53:080][  0]LogLoad: Full Startup: 90.04 seconds (BP compile: 3.45 seconds)
+[2015.07.28-19.04.54:572][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.28-19.04.55:888][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.07.28-19.04.56:989][  0]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2015.07.28-19.05.25:856][ 58]LogAssetRegistry: Asset discovery search completed in 67.8479 seconds
+[2015.07.28-19.07.26:707][429]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.10.49:410][599]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.10.51:970][664]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.01:775][947]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.02:170][955]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.09:212][164]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.21:310][475]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.23:798][550]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.24:098][550]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.29:658][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.28-19.11.29:847][550]LogSavePackage: Save=52.135639ms
+[2015.07.28-19.11.29:866][550]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level11CEA97BB4868746EA3224A8AF0A69D38.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap'
+[2015.07.28-19.11.29:883][550]LogFileHelpers: Saving map 'Level1' took 0.494
+[2015.07.28-19.11.29:903][550]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.28-19.11.29:904][550]LightingResults: New page: Lighting Build
+[2015.07.28-19.11.30:016][550]LoadErrors: New page: Loading map: Level1.umap
+[2015.07.28-19.11.30:017][550]MapCheck: New page: Map Check
+[2015.07.28-19.11.30:017][550]LightingResults: New page: Lighting Build
+[2015.07.28-19.11.30:111][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F5A3920
+[2015.07.28-19.11.30:247][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E31800
+[2015.07.28-19.11.30:420][550]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.11.30:434][550]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.28-19.11.30:579][550]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.28-19.11.30:819][550]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 239.444ms to complete.
+[2015.07.28-19.11.30:822][550]LogFileHelpers: Loading map 'Level1' took 0.927
+[2015.07.28-19.11.33:450][646]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.39:682][883]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.39:759][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.28-19.11.39:978][883]LogSavePackage: Save=50.417931ms
+[2015.07.28-19.11.39:978][883]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level1C2CCBFB34B093E270D795C953CDC3174.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap'
+[2015.07.28-19.11.41:446][932]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.42:957][988]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.44:789][ 55]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.11.54:065][336]SourceControl: Info Source control is disabled
+[2015.07.28-19.17.33:903][344]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.17.57:773][753]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.17.58:142][762]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.17.58:901][778]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.17.59:052][779]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.00:906][825]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.02:478][868]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.03:613][897]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.04:712][923]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.05:700][948]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.46:631][394]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.48:090][431]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.51:836][523]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.51:922][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.18.51:990][523]LogSavePackage: Save=60.872425ms
+[2015.07.28-19.18.51:990][523]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu453406D24FFF90411432B9BD5DDFA2DF.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.18.52:931][548]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.53:028][548]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.18.53:175][548]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.28-19.18.53:990][548]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.28-19.19.34:756][698]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.21.14:075][201]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.21.38:309][321]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.21.47:331][348]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.21.49:039][348]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.491
+[2015.07.28-19.21.49:072][348]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu] ([1] browsable assets)...
+[2015.07.28-19.21.49:073][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu]
+[2015.07.28-19.21.49:073][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Blueprints/MainMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.07.28-19.21.49:173][348]LogSavePackage: Save=71.171074ms
+[2015.07.28-19.21.49:173][348]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu_Auto1E35D0D5A45AD739E196FC18CE3FE86F1.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Blueprints/MainMenu_Auto1.uasset'
+[2015.07.28-19.21.49:176][348]LogFileHelpers: Auto-saving content packages took 0.128
+[2015.07.28-19.22.26:358][564]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:MainMenu_C_2.WidgetTree_8.CanvasPanel_0
+[2015.07.28-19.22.26:358][564]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/MainMenu.SKEL_MainMenu_C:WidgetTree_10.CanvasPanel_0
+[2015.07.28-19.22.26:359][564]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/MainMenu.MainMenu_C:WidgetTree_11.CanvasPanel_0
+[2015.07.28-19.22.26:359][564]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:MainMenu_C_3.WidgetTree_12.CanvasPanel_0
+[2015.07.28-19.22.26:359][564]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_180) from referencer (Button /Engine/UMG/Editor/Transient.Button_87).  Import failed...
+[2015.07.28-19.22.26:359][564]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_180''
+[2015.07.28-19.22.29:023][585]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.22.31:644][605]LogEditorTransaction: Undo Move Widget
+[2015.07.28-19.22.31:930][605]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.22.33:598][617]LogEditorTransaction: Undo Paste clipboard contents
+[2015.07.28-19.22.40:780][681]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.23.06:677][932]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.23.18:707][ 44]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.23.35:076][206]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.24.54:271][891]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.24.54:790][894]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.24.55:662][899]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.24.58:743][920]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.24.59:183][922]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.25.02:499][945]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.25.03:557][945]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.25.03:635][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.25.03:743][945]LogSavePackage: Save=87.422600ms
+[2015.07.28-19.25.03:743][945]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu4B2C51A14D2E1175FF28038DF3307601.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.25.03:808][945]BlueprintEditorCompileResults: Info [1300.72] Compile of MainMenu successful! [in 1,309 ms]
+[2015.07.28-19.26.11:780][218]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.26.33:493][437]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.29.12:421][178]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.29.18:817][224]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.29.29:036][305]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.29.49:717][487]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.29.49:790][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.29.49:879][487]LogSavePackage: Save=62.990005ms
+[2015.07.28-19.29.49:879][487]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu208D0E8D474ECE3389F3FDAF19757FC8.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.32.09:611][145]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.32.18:671][172]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.32.20:128][172]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.278
+[2015.07.28-19.32.20:158][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu] ([1] browsable assets)...
+[2015.07.28-19.32.20:158][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu]
+[2015.07.28-19.32.20:158][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.07.28-19.32.20:261][172]LogSavePackage: Save=93.317322ms
+[2015.07.28-19.32.20:261][172]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu_Auto2CF3EC6B3450457B96D193D95E62FD50B.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Blueprints/MainMenu_Auto2.uasset'
+[2015.07.28-19.32.20:268][172]LogFileHelpers: Auto-saving content packages took 0.135
+[2015.07.28-19.32.29:058][262]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.32.29:123][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.32.29:187][262]LogSavePackage: Save=56.308086ms
+[2015.07.28-19.32.29:187][262]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu5D51DFFC457176293B92508507FBAC0A.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.32.30:347][275]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.32.30:968][280]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.32.32:753][301]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.32.33:430][301]BlueprintEditorCompileResults: Info [1750.33] Compile of MainMenu successful! [in 676 ms]
+[2015.07.28-19.32.47:545][469]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.33.18:474][793]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.33.19:560][809]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.33.43:629][994]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.33.44:261][994]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.33.44:337][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.33.44:424][994]LogSavePackage: Save=79.200478ms
+[2015.07.28-19.33.44:424][994]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenuBEB1871E41F2C8FFD3D68C84E047A5D0.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.33.44:447][994]BlueprintEditorCompileResults: Info [1821.34] Compile of MainMenu successful! [in 816 ms]
+[2015.07.28-19.34.04:519][385]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.34.57:924][455]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.35.00:371][507]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.35.03:728][575]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.35.09:584][657]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.35.29:873][ 45]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.35.47:678][284]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.36.32:666][133]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.38.17:182][276]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.38.17:852][276]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.38.17:911][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.38.18:011][276]LogSavePackage: Save=73.422455ms
+[2015.07.28-19.38.18:011][276]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu751AAB98461E8FC249E02DA5B9620382.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.38.18:032][276]BlueprintEditorCompileResults: Info [2094.92] Compile of MainMenu successful! [in 848 ms]
+[2015.07.28-19.38.31:351][457]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.38.32:342][471]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.39.08:908][687]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.39.10:314][703]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.39.33:412][898]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.39.34:845][919]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.40.40:095][608]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.41.13:426][901]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.41.14:501][917]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.41.29:761][142]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.41.30:702][156]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.41.48:720][418]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.41.49:802][435]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.41.56:276][537]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.42.19:684][721]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.42.29:530][808]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.42.30:169][808]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.42.30:248][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.42.30:370][808]LogSavePackage: Save=113.335335ms
+[2015.07.28-19.42.30:370][808]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu2CC2674444C30C4EF6E1F3B00BE7AE42.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.42.30:403][808]BlueprintEditorCompileResults: Info [2347.28] Compile of MainMenu successful! [in 872 ms]
+[2015.07.28-19.42.32:172][837]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.42.32:244][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.42.32:371][837]LogSavePackage: Save=114.034355ms
+[2015.07.28-19.42.32:371][837]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenuEC08527447E13FD68EDBBA97B48B8BC4.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.43.11:785][ 78]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.43.14:512][153]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.43.16:672][219]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.43.17:178][233]LogEditorViewport: Clicking Background
+[2015.07.28-19.43.33:340][373]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.43.35:682][445]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.43.56:592][762]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.43.57:349][782]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.43.59:860][856]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.44.00:213][856]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.44.22:873][  6]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.44.23:123][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CEADF80
+[2015.07.28-19.44.23:123][  6]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.28-19.44.23:127][  6]LightingResults: New page: Lighting Build
+[2015.07.28-19.44.23:234][  6]LoadErrors: New page: Loading map: Level1.umap
+[2015.07.28-19.44.23:235][  6]MapCheck: New page: Map Check
+[2015.07.28-19.44.23:235][  6]LightingResults: New page: Lighting Build
+[2015.07.28-19.44.23:405][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CEAC2C0
+[2015.07.28-19.44.23:405][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CF1AB60
+[2015.07.28-19.44.23:626][  6]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.44.23:687][  6]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.28-19.44.23:924][  6]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.28-19.44.24:185][  6]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 260.046ms to complete.
+[2015.07.28-19.44.24:190][  6]LogFileHelpers: Loading map 'Level1' took 1.072
+[2015.07.28-19.44.25:677][ 53]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.44.27:205][ 99]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.44.28:985][148]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.44.29:075][148]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.45.04:267][421]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.45.05:686][436]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.45.19:995][576]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.45.50:982][774]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.45.52:107][788]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.46.08:375][952]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.46.31:626][219]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.46.32:746][237]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.46.40:255][375]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.00:122][572]BlueprintLog: New page: Compile Level1
+[2015.07.28-19.47.00:961][572]BlueprintEditorCompileResults: Info [2617.83] Compile of Level1 successful! [in 838 ms]
+[2015.07.28-19.47.02:045][587]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.03:497][604]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.17:466][770]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.18:950][811]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.19:894][839]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.21:695][889]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.22:808][921]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.22:965][923]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.25:066][985]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.27:074][ 47]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.33:277][150]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.39:023][233]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.44:222][304]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.54:149][479]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.47.54:211][479]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.28-19.47.57:392][545]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.48.15:941][905]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.48.28:598][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CEAC4A0
+[2015.07.28-19.48.28:666][186]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.48.29:022][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.28-19.48.29:831][186]LogSavePackage: Save=528.981323ms
+[2015.07.28-19.48.29:832][186]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level198ECC0D4444A00B5457BDBA3B68F9559.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap'
+[2015.07.28-19.48.29:998][186]LogFileHelpers: Saving map 'Level1' took 1.283
+[2015.07.28-19.48.31:666][232]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.48.31:731][232]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.48.32:415][232]LogPlayLevel: PIE:  Blueprint regeneration took 748 ms (1 blueprints)
+[2015.07.28-19.48.32:546][232]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:48:32 PM)
+[2015.07.28-19.48.32:548][232]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.48.32:568][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019151s)
+[2015.07.28-19.48.32:571][232]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.48.32:575][232]LogPlayLevel: PIE: World Init took: (0.006474s)
+[2015.07.28-19.48.32:576][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.027260s)
+[2015.07.28-19.48.32:838][232]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.48.32:876][232]LogInit: FAudioDevice initialized.
+[2015.07.28-19.48.33:140][232]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.48.33:150][232]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.48.33
+[2015.07.28-19.48.33:150][232]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.33:156][232]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.33:157][232]LogWorld: Bringing up level for play took: 0.009418
+[2015.07.28-19.48.33:388][232]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.689
+[2015.07.28-19.48.38:823][328]LogPackageName: SearchForPackageOnDisk took   0.459s to resolve Level1.umap
+[2015.07.28-19.48.39:262][328]LogPackageName: SearchForPackageOnDisk took   0.434s to resolve Level1.umap
+[2015.07.28-19.48.39:262][328]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.48.39:263][328]LogLoad: LoadMap: /Game/Maps/Level1
+[2015.07.28-19.48.39:531][328]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005F85C60
+[2015.07.28-19.48.39:531][328]Cmd: MEM
+[2015.07.28-19.48.39:758][328]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.48.39:758][328]LogMemory: Process Physical Memory: 596.59 MB used, 600.32 MB peak
+[2015.07.28-19.48.39:758][328]LogMemory: Process Virtual Memory: 487.34 MB used, 493.67 MB peak
+[2015.07.28-19.48.39:758][328]LogMemory: Physical Memory: 4017.00 MB used, 8148.89 MB total
+[2015.07.28-19.48.39:759][328]LogMemory: Virtual Memory: 1054.89 MB used, 8388608.00 MB total
+[2015.07.28-19.48.39:759][328]LogMemory: 
+[2015.07.28-19.48.39:759][328]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.48.39:759][328]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.48.39:775][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016387s)
+[2015.07.28-19.48.39:778][328]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.48.39:787][328]LogPlayLevel: PIE: World Init took: (0.011889s)
+[2015.07.28-19.48.39:788][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.029158s)
+[2015.07.28-19.48.39:789][328]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.48.39:799][328]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.48.39
+[2015.07.28-19.48.39:799][328]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.39:801][328]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.39:802][328]LogWorld: Bringing up level for play took: 0.004945
+[2015.07.28-19.48.39:805][328]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.48.41:695][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005F86160
+[2015.07.28-19.48.43:820][446]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.48.43:874][446]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.48.44:440][446]LogPlayLevel: PIE:  Blueprint regeneration took 619 ms (1 blueprints)
+[2015.07.28-19.48.44:440][446]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:48:44 PM)
+[2015.07.28-19.48.44:442][446]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.48.44:456][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013108s)
+[2015.07.28-19.48.44:458][446]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.48.44:461][446]LogPlayLevel: PIE: World Init took: (0.005025s)
+[2015.07.28-19.48.44:461][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.018904s)
+[2015.07.28-19.48.44:676][446]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.48.44:711][446]LogInit: FAudioDevice initialized.
+[2015.07.28-19.48.44:796][446]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.48.44:808][446]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.48.44
+[2015.07.28-19.48.44:808][446]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.44:810][446]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.44:811][446]LogWorld: Bringing up level for play took: 0.006812
+[2015.07.28-19.48.44:828][446]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.128
+[2015.07.28-19.48.46:526][485]LogPackageName: SearchForPackageOnDisk took   0.399s to resolve Level1.umap
+[2015.07.28-19.48.46:921][485]LogPackageName: SearchForPackageOnDisk took   0.393s to resolve Level1.umap
+[2015.07.28-19.48.46:921][485]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.48.46:922][485]LogLoad: LoadMap: /Game/Maps/Level1
+[2015.07.28-19.48.47:149][485]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F1D3100
+[2015.07.28-19.48.47:149][485]Cmd: MEM
+[2015.07.28-19.48.47:336][485]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.48.47:336][485]LogMemory: Process Physical Memory: 596.91 MB used, 600.51 MB peak
+[2015.07.28-19.48.47:336][485]LogMemory: Process Virtual Memory: 487.96 MB used, 493.67 MB peak
+[2015.07.28-19.48.47:336][485]LogMemory: Physical Memory: 4017.34 MB used, 8148.89 MB total
+[2015.07.28-19.48.47:336][485]LogMemory: Virtual Memory: 1054.89 MB used, 8388608.00 MB total
+[2015.07.28-19.48.47:336][485]LogMemory: 
+[2015.07.28-19.48.47:336][485]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.48.47:337][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.48.47:349][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012279s)
+[2015.07.28-19.48.47:351][485]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.48.47:359][485]LogPlayLevel: PIE: World Init took: (0.010114s)
+[2015.07.28-19.48.47:360][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.023156s)
+[2015.07.28-19.48.47:361][485]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.48.47:371][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.48.47
+[2015.07.28-19.48.47:371][485]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.47:374][485]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.47:375][485]LogWorld: Bringing up level for play took: 0.005483
+[2015.07.28-19.48.47:377][485]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.48.49:317][536]LogPackageName: SearchForPackageOnDisk took   0.386s to resolve Level1.umap
+[2015.07.28-19.48.49:707][536]LogPackageName: SearchForPackageOnDisk took   0.389s to resolve Level1.umap
+[2015.07.28-19.48.49:708][536]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.48.49:708][536]LogLoad: LoadMap: /Game/Maps/Level1
+[2015.07.28-19.48.49:888][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6BAE80
+[2015.07.28-19.48.49:932][536]Cmd: MEM
+[2015.07.28-19.48.50:130][536]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.48.50:130][536]LogMemory: Process Physical Memory: 596.91 MB used, 600.51 MB peak
+[2015.07.28-19.48.50:130][536]LogMemory: Process Virtual Memory: 487.96 MB used, 493.67 MB peak
+[2015.07.28-19.48.50:130][536]LogMemory: Physical Memory: 4017.38 MB used, 8148.89 MB total
+[2015.07.28-19.48.50:130][536]LogMemory: Virtual Memory: 1054.89 MB used, 8388608.00 MB total
+[2015.07.28-19.48.50:131][536]LogMemory: 
+[2015.07.28-19.48.50:131][536]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.48.50:131][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.48.50:144][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013390s)
+[2015.07.28-19.48.50:147][536]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.48.50:155][536]LogPlayLevel: PIE: World Init took: (0.010386s)
+[2015.07.28-19.48.50:155][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.024629s)
+[2015.07.28-19.48.50:157][536]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.48.50:167][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.48.50
+[2015.07.28-19.48.50:167][536]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.50:170][536]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.48.50:170][536]LogWorld: Bringing up level for play took: 0.005482
+[2015.07.28-19.48.50:173][536]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.48.53:296][631]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003F649A0
+[2015.07.28-19.48.58:035][806]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.48.58:123][806]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.49.11:748][  5]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.49.12:884][ 17]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.49.25:241][193]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.49.28:907][255]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.49.29:573][255]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.49.29:635][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.49.29:778][255]LogSavePackage: Save=116.627449ms
+[2015.07.28-19.49.29:778][255]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenuDA6D80F348D8F034FA0DF69BCC47862A.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.49.29:801][255]BlueprintEditorCompileResults: Info [2766.67] Compile of MainMenu successful! [in 892 ms]
+[2015.07.28-19.49.34:073][357]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.49.34:128][357]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.49.34:639][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B23A980
+[2015.07.28-19.49.34:711][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B93BA0
+[2015.07.28-19.49.34:711][357]LogPlayLevel: PIE:  Blueprint regeneration took 638 ms (1 blueprints)
+[2015.07.28-19.49.34:712][357]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:49:34 PM)
+[2015.07.28-19.49.34:714][357]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.49.34:728][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013775s)
+[2015.07.28-19.49.34:730][357]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.49.34:733][357]LogPlayLevel: PIE: World Init took: (0.005165s)
+[2015.07.28-19.49.34:734][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.019869s)
+[2015.07.28-19.49.34:949][357]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.49.34:982][357]LogInit: FAudioDevice initialized.
+[2015.07.28-19.49.35:064][357]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.49.35:073][357]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.49.35
+[2015.07.28-19.49.35:073][357]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.35:076][357]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.35:076][357]LogWorld: Bringing up level for play took: 0.005381
+[2015.07.28-19.49.35:092][357]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.392
+[2015.07.28-19.49.38:419][450]LogPackageName: SearchForPackageOnDisk took   0.379s to resolve Level1.umap
+[2015.07.28-19.49.38:778][450]LogPackageName: SearchForPackageOnDisk took   0.357s to resolve Level1.umap
+[2015.07.28-19.49.38:778][450]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.49.38:778][450]LogLoad: LoadMap: /Game/Maps/Level1
+[2015.07.28-19.49.39:001][450]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013FD2160
+[2015.07.28-19.49.39:001][450]Cmd: MEM
+[2015.07.28-19.49.39:201][450]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.49.39:201][450]LogMemory: Process Physical Memory: 601.39 MB used, 601.83 MB peak
+[2015.07.28-19.49.39:201][450]LogMemory: Process Virtual Memory: 491.97 MB used, 496.04 MB peak
+[2015.07.28-19.49.39:201][450]LogMemory: Physical Memory: 4010.41 MB used, 8148.89 MB total
+[2015.07.28-19.49.39:201][450]LogMemory: Virtual Memory: 1063.76 MB used, 8388608.00 MB total
+[2015.07.28-19.49.39:201][450]LogMemory: 
+[2015.07.28-19.49.39:201][450]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.49.39:202][450]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.49.39:216][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014284s)
+[2015.07.28-19.49.39:218][450]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.49.39:226][450]LogPlayLevel: PIE: World Init took: (0.010239s)
+[2015.07.28-19.49.39:227][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.025401s)
+[2015.07.28-19.49.39:228][450]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.49.39:238][450]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.49.39
+[2015.07.28-19.49.39:239][450]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.39:241][450]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.39:242][450]LogWorld: Bringing up level for play took: 0.005577
+[2015.07.28-19.49.39:245][450]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.49.40:758][488]LogPackageName: SearchForPackageOnDisk took   0.373s to resolve Level1.umap
+[2015.07.28-19.49.41:134][488]LogPackageName: SearchForPackageOnDisk took   0.373s to resolve Level1.umap
+[2015.07.28-19.49.41:134][488]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.49.41:134][488]LogLoad: LoadMap: /Game/Maps/Level1
+[2015.07.28-19.49.41:308][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F7A480
+[2015.07.28-19.49.41:347][488]Cmd: MEM
+[2015.07.28-19.49.41:537][488]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.49.41:537][488]LogMemory: Process Physical Memory: 601.40 MB used, 601.84 MB peak
+[2015.07.28-19.49.41:537][488]LogMemory: Process Virtual Memory: 491.97 MB used, 496.04 MB peak
+[2015.07.28-19.49.41:537][488]LogMemory: Physical Memory: 4010.68 MB used, 8148.89 MB total
+[2015.07.28-19.49.41:537][488]LogMemory: Virtual Memory: 1063.76 MB used, 8388608.00 MB total
+[2015.07.28-19.49.41:537][488]LogMemory: 
+[2015.07.28-19.49.41:537][488]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.49.41:538][488]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.49.41:551][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012739s)
+[2015.07.28-19.49.41:553][488]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.49.41:562][488]LogPlayLevel: PIE: World Init took: (0.011152s)
+[2015.07.28-19.49.41:562][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.024625s)
+[2015.07.28-19.49.41:563][488]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.49.41:573][488]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.49.41
+[2015.07.28-19.49.41:573][488]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.41:575][488]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.41:576][488]LogWorld: Bringing up level for play took: 0.004901
+[2015.07.28-19.49.41:578][488]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.49.44:238][556]LogPackageName: SearchForPackageOnDisk took   0.401s to resolve Level1.umap
+[2015.07.28-19.49.44:618][556]LogPackageName: SearchForPackageOnDisk took   0.378s to resolve Level1.umap
+[2015.07.28-19.49.44:618][556]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.49.44:618][556]LogLoad: LoadMap: /Game/Maps/Level1
+[2015.07.28-19.49.44:812][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F784A0
+[2015.07.28-19.49.44:854][556]Cmd: MEM
+[2015.07.28-19.49.45:070][556]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.49.45:070][556]LogMemory: Process Physical Memory: 601.41 MB used, 601.84 MB peak
+[2015.07.28-19.49.45:070][556]LogMemory: Process Virtual Memory: 491.97 MB used, 496.04 MB peak
+[2015.07.28-19.49.45:070][556]LogMemory: Physical Memory: 4009.59 MB used, 8148.89 MB total
+[2015.07.28-19.49.45:070][556]LogMemory: Virtual Memory: 1063.76 MB used, 8388608.00 MB total
+[2015.07.28-19.49.45:070][556]LogMemory: 
+[2015.07.28-19.49.45:070][556]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.49.45:070][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.49.45:083][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012466s)
+[2015.07.28-19.49.45:085][556]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.49.45:093][556]LogPlayLevel: PIE: World Init took: (0.010139s)
+[2015.07.28-19.49.45:094][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.023393s)
+[2015.07.28-19.49.45:095][556]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.49.45:105][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.49.45
+[2015.07.28-19.49.45:105][556]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.45:108][556]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.49.45:109][556]LogWorld: Bringing up level for play took: 0.006837
+[2015.07.28-19.49.45:112][556]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.49.50:160][710]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.49.50:772][727]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.50.03:422][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013FAD760
+[2015.07.28-19.50.12:791][419]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.50.12:927][419]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.50.29:051][633]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.50.29:101][633]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.50.29:557][633]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.07.28-19.50.30:046][633]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.50.30:134][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.50.30:268][633]LogSavePackage: Save=124.109123ms
+[2015.07.28-19.50.30:268][633]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenuE3ECD59B4690BA2E76AB2C90231406F4.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.50.30:486][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F7A2A0
+[2015.07.28-19.50.30:571][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F796C0
+[2015.07.28-19.50.30:571][633]LogPlayLevel: PIE:  Blueprint regeneration took 1519 ms (2 blueprints)
+[2015.07.28-19.50.30:572][633]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:50:30 PM)
+[2015.07.28-19.50.30:573][633]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.50.30:588][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014093s)
+[2015.07.28-19.50.30:595][633]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.50.30:598][633]LogPlayLevel: PIE: World Init took: (0.010071s)
+[2015.07.28-19.50.30:598][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.024956s)
+[2015.07.28-19.50.30:835][633]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.50.30:873][633]LogInit: FAudioDevice initialized.
+[2015.07.28-19.50.30:959][633]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.50.30:970][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.50.30
+[2015.07.28-19.50.30:970][633]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.50.30:973][633]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.50.30:974][633]LogWorld: Bringing up level for play took: 0.006051
+[2015.07.28-19.50.30:990][633]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.287
+[2015.07.28-19.50.33:397][690]LogPackageName: SearchForPackageOnDisk took   0.416s to resolve Level2.umap
+[2015.07.28-19.50.33:817][690]LogPackageName: SearchForPackageOnDisk took   0.418s to resolve Level2.umap
+[2015.07.28-19.50.33:817][690]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.50.33:817][690]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Level1
+[2015.07.28-19.50.33:818][690]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.33:818][690]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.33:818][690]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Level1
+[2015.07.28-19.50.33:818][690]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.33:818][690]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.34:173][691]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000276FFEC0
+[2015.07.28-19.50.36:529][765]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.50.36:587][765]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.50.37:188][765]LogPlayLevel: PIE:  Blueprint regeneration took 659 ms (1 blueprints)
+[2015.07.28-19.50.37:189][765]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:50:37 PM)
+[2015.07.28-19.50.37:191][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.50.37:204][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013094s)
+[2015.07.28-19.50.37:207][765]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.50.37:211][765]LogPlayLevel: PIE: World Init took: (0.006452s)
+[2015.07.28-19.50.37:211][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.020433s)
+[2015.07.28-19.50.37:445][765]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.50.37:486][765]LogInit: FAudioDevice initialized.
+[2015.07.28-19.50.37:572][765]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.50.37:582][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.50.37
+[2015.07.28-19.50.37:582][765]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.50.37:584][765]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.50.37:585][765]LogWorld: Bringing up level for play took: 0.005069
+[2015.07.28-19.50.37:603][765]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.9
+[2015.07.28-19.50.39:566][807]LogPackageName: SearchForPackageOnDisk took   0.421s to resolve Level2.umap
+[2015.07.28-19.50.39:972][807]LogPackageName: SearchForPackageOnDisk took   0.404s to resolve Level2.umap
+[2015.07.28-19.50.39:972][807]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.50.39:972][807]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Level1
+[2015.07.28-19.50.39:972][807]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.39:973][807]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.39:973][807]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Level1
+[2015.07.28-19.50.39:973][807]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.39:973][807]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Level1'. Shutting down PIE.
+[2015.07.28-19.50.40:301][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000276FCEA0
+[2015.07.28-19.50.44:644][954]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.50.44:712][954]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.50.45:312][954]LogPlayLevel: PIE:  Blueprint regeneration took 668 ms (1 blueprints)
+[2015.07.28-19.50.45:313][954]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:50:45 PM)
+[2015.07.28-19.50.45:315][954]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.50.45:335][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019436s)
+[2015.07.28-19.50.45:338][954]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.50.45:342][954]LogPlayLevel: PIE: World Init took: (0.006866s)
+[2015.07.28-19.50.45:342][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.027292s)
+[2015.07.28-19.50.45:554][954]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.50.45:591][954]LogInit: FAudioDevice initialized.
+[2015.07.28-19.50.45:680][954]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.50.45:694][954]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.50.45
+[2015.07.28-19.50.45:694][954]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.50.45:697][954]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.50.45:698][954]LogWorld: Bringing up level for play took: 0.007504
+[2015.07.28-19.50.45:723][954]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 2.02
+[2015.07.28-19.50.49:378][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6BAE80
+[2015.07.28-19.50.56:248][279]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.50.56:513][279]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.50.59:700][309]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.51.00:059][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.28-19.51.00:336][309]LogSavePackage: Save=51.590942ms
+[2015.07.28-19.51.00:336][309]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level2106F27CB423D64C536084FA6A3990E94.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level2.umap'
+[2015.07.28-19.51.00:347][309]LogFileHelpers: Saving map 'Level2' took 0.614
+[2015.07.28-19.51.05:620][485]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.51.05:707][485]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.52.03:966][848]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.52.35:150][237]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.52.39:214][307]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.52.43:334][378]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.52.43:383][378]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.52.43:846][378]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.07.28-19.52.44:321][378]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.52.44:384][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.52.44:507][378]LogSavePackage: Save=113.741287ms
+[2015.07.28-19.52.44:507][378]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenuDB1299D441D10BF2F52A5D833C3BC68C.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.52.44:789][378]LogPlayLevel: PIE:  Blueprint regeneration took 1455 ms (2 blueprints)
+[2015.07.28-19.52.44:790][378]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:52:44 PM)
+[2015.07.28-19.52.44:792][378]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.52.44:804][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012399s)
+[2015.07.28-19.52.44:807][378]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.52.44:811][378]LogPlayLevel: PIE: World Init took: (0.006685s)
+[2015.07.28-19.52.44:812][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.020040s)
+[2015.07.28-19.52.45:044][378]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.52.45:081][378]LogInit: FAudioDevice initialized.
+[2015.07.28-19.52.45:167][378]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.52.45:179][378]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.52.45
+[2015.07.28-19.52.45:180][378]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.52.45:182][378]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.52.45:183][378]LogWorld: Bringing up level for play took: 0.006167
+[2015.07.28-19.52.45:198][378]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.491
+[2015.07.28-19.53.07:241][571]LogPackageName: SearchForPackageOnDisk took   0.452s to resolve Level2.umap
+[2015.07.28-19.53.07:657][571]LogPackageName: SearchForPackageOnDisk took   0.413s to resolve Level2.umap
+[2015.07.28-19.53.07:657][571]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.53.07:657][571]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.53.07:905][571]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010FAEDE0
+[2015.07.28-19.53.07:906][571]Cmd: MEM
+[2015.07.28-19.53.08:129][571]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.53.08:129][571]LogMemory: Process Physical Memory: 617.55 MB used, 617.56 MB peak
+[2015.07.28-19.53.08:129][571]LogMemory: Process Virtual Memory: 508.41 MB used, 508.54 MB peak
+[2015.07.28-19.53.08:129][571]LogMemory: Physical Memory: 4022.97 MB used, 8148.89 MB total
+[2015.07.28-19.53.08:129][571]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.53.08:129][571]LogMemory: 
+[2015.07.28-19.53.08:129][571]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.53.08:129][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.53.08:143][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013454s)
+[2015.07.28-19.53.08:145][571]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.08:154][571]LogPlayLevel: PIE: World Init took: (0.010640s)
+[2015.07.28-19.53.08:154][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.024924s)
+[2015.07.28-19.53.08:155][571]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.08:165][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.08
+[2015.07.28-19.53.08:166][571]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.08:168][571]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.08:169][571]LogWorld: Bringing up level for play took: 0.006310
+[2015.07.28-19.53.08:174][571]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.53.08:668][572]LogPackageName: SearchForPackageOnDisk took   0.394s to resolve Level2.umap
+[2015.07.28-19.53.09:076][572]LogPackageName: SearchForPackageOnDisk took   0.402s to resolve Level2.umap
+[2015.07.28-19.53.09:076][572]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.53.09:076][572]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.53.09:297][572]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B23B100
+[2015.07.28-19.53.09:298][572]Cmd: MEM
+[2015.07.28-19.53.09:550][572]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.53.09:550][572]LogMemory: Process Physical Memory: 617.55 MB used, 617.56 MB peak
+[2015.07.28-19.53.09:550][572]LogMemory: Process Virtual Memory: 508.41 MB used, 508.54 MB peak
+[2015.07.28-19.53.09:550][572]LogMemory: Physical Memory: 4023.69 MB used, 8148.89 MB total
+[2015.07.28-19.53.09:550][572]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.53.09:550][572]LogMemory: 
+[2015.07.28-19.53.09:550][572]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.53.09:550][572]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.53.09:564][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013490s)
+[2015.07.28-19.53.09:567][572]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.09:572][572]LogPlayLevel: PIE: World Init took: (0.007651s)
+[2015.07.28-19.53.09:572][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.022045s)
+[2015.07.28-19.53.09:574][572]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.09:584][572]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.09
+[2015.07.28-19.53.09:584][572]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.09:586][572]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.09:587][572]LogWorld: Bringing up level for play took: 0.005212
+[2015.07.28-19.53.09:590][572]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.53.11:239][592]LogPackageName: SearchForPackageOnDisk took   0.482s to resolve Level2.umap
+[2015.07.28-19.53.11:658][592]LogPackageName: SearchForPackageOnDisk took   0.416s to resolve Level2.umap
+[2015.07.28-19.53.11:659][592]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.53.11:659][592]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.53.11:891][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B904A0
+[2015.07.28-19.53.11:891][592]Cmd: MEM
+[2015.07.28-19.53.12:095][592]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.53.12:095][592]LogMemory: Process Physical Memory: 617.55 MB used, 617.56 MB peak
+[2015.07.28-19.53.12:095][592]LogMemory: Process Virtual Memory: 508.41 MB used, 508.54 MB peak
+[2015.07.28-19.53.12:095][592]LogMemory: Physical Memory: 4020.64 MB used, 8148.89 MB total
+[2015.07.28-19.53.12:095][592]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.53.12:095][592]LogMemory: 
+[2015.07.28-19.53.12:095][592]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.53.12:096][592]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.53.12:109][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013600s)
+[2015.07.28-19.53.12:112][592]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.12:122][592]LogPlayLevel: PIE: World Init took: (0.012733s)
+[2015.07.28-19.53.12:123][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.027490s)
+[2015.07.28-19.53.12:126][592]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.12:137][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.12
+[2015.07.28-19.53.12:137][592]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.12:140][592]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.12:140][592]LogWorld: Bringing up level for play took: 0.005573
+[2015.07.28-19.53.12:144][592]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.53.12:865][597]LogPackageName: SearchForPackageOnDisk took   0.416s to resolve Level2.umap
+[2015.07.28-19.53.13:268][597]LogPackageName: SearchForPackageOnDisk took   0.399s to resolve Level2.umap
+[2015.07.28-19.53.13:268][597]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.53.13:269][597]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.53.13:507][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B90220
+[2015.07.28-19.53.13:508][597]Cmd: MEM
+[2015.07.28-19.53.13:702][597]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.53.13:702][597]LogMemory: Process Physical Memory: 617.55 MB used, 617.56 MB peak
+[2015.07.28-19.53.13:702][597]LogMemory: Process Virtual Memory: 508.41 MB used, 508.54 MB peak
+[2015.07.28-19.53.13:702][597]LogMemory: Physical Memory: 4020.52 MB used, 8148.89 MB total
+[2015.07.28-19.53.13:702][597]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.53.13:703][597]LogMemory: 
+[2015.07.28-19.53.13:703][597]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.53.13:703][597]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.53.13:720][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016512s)
+[2015.07.28-19.53.13:722][597]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.13:732][597]LogPlayLevel: PIE: World Init took: (0.012480s)
+[2015.07.28-19.53.13:733][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.029890s)
+[2015.07.28-19.53.13:734][597]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.13:743][597]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.13
+[2015.07.28-19.53.13:744][597]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.13:746][597]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.13:747][597]LogWorld: Bringing up level for play took: 0.005776
+[2015.07.28-19.53.13:751][597]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.53.14:456][602]LogPackageName: SearchForPackageOnDisk took   0.395s to resolve Level2.umap
+[2015.07.28-19.53.14:860][602]LogPackageName: SearchForPackageOnDisk took   0.402s to resolve Level2.umap
+[2015.07.28-19.53.14:860][602]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.53.14:860][602]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.53.15:097][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B90AE0
+[2015.07.28-19.53.15:097][602]Cmd: MEM
+[2015.07.28-19.53.15:318][602]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.53.15:319][602]LogMemory: Process Physical Memory: 617.55 MB used, 617.56 MB peak
+[2015.07.28-19.53.15:319][602]LogMemory: Process Virtual Memory: 508.41 MB used, 508.54 MB peak
+[2015.07.28-19.53.15:319][602]LogMemory: Physical Memory: 4020.76 MB used, 8148.89 MB total
+[2015.07.28-19.53.15:319][602]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.53.15:319][602]LogMemory: 
+[2015.07.28-19.53.15:319][602]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.53.15:319][602]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.53.15:334][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014807s)
+[2015.07.28-19.53.15:337][602]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.15:345][602]LogPlayLevel: PIE: World Init took: (0.010766s)
+[2015.07.28-19.53.15:346][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.026447s)
+[2015.07.28-19.53.15:347][602]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.15:356][602]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.15
+[2015.07.28-19.53.15:356][602]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.15:358][602]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.15:359][602]LogWorld: Bringing up level for play took: 0.005009
+[2015.07.28-19.53.15:362][602]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.53.22:164][724]LogPackageName: SearchForPackageOnDisk took   0.399s to resolve Level2.umap
+[2015.07.28-19.53.22:559][724]LogPackageName: SearchForPackageOnDisk took   0.393s to resolve Level2.umap
+[2015.07.28-19.53.22:559][724]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.53.22:560][724]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.53.22:794][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B92840
+[2015.07.28-19.53.22:794][724]Cmd: MEM
+[2015.07.28-19.53.23:067][724]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.53.23:067][724]LogMemory: Process Physical Memory: 617.55 MB used, 617.56 MB peak
+[2015.07.28-19.53.23:068][724]LogMemory: Process Virtual Memory: 508.41 MB used, 508.54 MB peak
+[2015.07.28-19.53.23:068][724]LogMemory: Physical Memory: 4020.85 MB used, 8148.89 MB total
+[2015.07.28-19.53.23:068][724]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.53.23:068][724]LogMemory: 
+[2015.07.28-19.53.23:068][724]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.53.23:068][724]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.53.23:088][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019428s)
+[2015.07.28-19.53.23:091][724]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.23:101][724]LogPlayLevel: PIE: World Init took: (0.013317s)
+[2015.07.28-19.53.23:102][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.034100s)
+[2015.07.28-19.53.23:104][724]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.23:117][724]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.23
+[2015.07.28-19.53.23:117][724]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.23:120][724]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.23:121][724]LogWorld: Bringing up level for play took: 0.006880
+[2015.07.28-19.53.23:125][724]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.53.23:928][729]LogPackageName: SearchForPackageOnDisk took   0.448s to resolve Level2.umap
+[2015.07.28-19.53.24:327][729]LogPackageName: SearchForPackageOnDisk took   0.396s to resolve Level2.umap
+[2015.07.28-19.53.24:327][729]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.53.24:327][729]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.53.24:573][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B90180
+[2015.07.28-19.53.24:573][729]Cmd: MEM
+[2015.07.28-19.53.24:783][729]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.53.24:783][729]LogMemory: Process Physical Memory: 617.55 MB used, 617.56 MB peak
+[2015.07.28-19.53.24:783][729]LogMemory: Process Virtual Memory: 508.41 MB used, 508.54 MB peak
+[2015.07.28-19.53.24:783][729]LogMemory: Physical Memory: 4021.59 MB used, 8148.89 MB total
+[2015.07.28-19.53.24:784][729]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.53.24:784][729]LogMemory: 
+[2015.07.28-19.53.24:784][729]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.53.24:784][729]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.53.24:800][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015861s)
+[2015.07.28-19.53.24:802][729]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.24:811][729]LogPlayLevel: PIE: World Init took: (0.010475s)
+[2015.07.28-19.53.24:811][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.027284s)
+[2015.07.28-19.53.24:812][729]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.24:824][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.24
+[2015.07.28-19.53.24:825][729]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.24:827][729]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.24:828][729]LogWorld: Bringing up level for play took: 0.006140
+[2015.07.28-19.53.24:831][729]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.53.25:645][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B23B6A0
+[2015.07.28-19.53.33:855][892]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.53.34:878][904]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.53.51:467][167]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.53.54:084][208]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.53.54:156][208]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.53.54:662][208]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.07.28-19.53.55:176][208]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.53.55:251][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.53.55:393][208]LogSavePackage: Save=132.605301ms
+[2015.07.28-19.53.55:394][208]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu7CF078EE48694AB691BD5F9950BAC9E6.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.53.55:714][208]LogPlayLevel: PIE:  Blueprint regeneration took 1630 ms (2 blueprints)
+[2015.07.28-19.53.55:715][208]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:53:55 PM)
+[2015.07.28-19.53.55:717][208]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.53.55:734][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016450s)
+[2015.07.28-19.53.55:736][208]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.53.55:739][208]LogPlayLevel: PIE: World Init took: (0.005182s)
+[2015.07.28-19.53.55:740][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.022534s)
+[2015.07.28-19.53.55:985][208]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.53.56:021][208]LogInit: FAudioDevice initialized.
+[2015.07.28-19.53.56:120][208]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.53.56:133][208]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.53.56
+[2015.07.28-19.53.56:133][208]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.56:136][208]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.53.56:136][208]LogWorld: Bringing up level for play took: 0.005994
+[2015.07.28-19.53.56:156][208]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 2.447
+[2015.07.28-19.54.04:240][308]LogPackageName: SearchForPackageOnDisk took   0.448s to resolve Level2.umap
+[2015.07.28-19.54.04:640][308]LogPackageName: SearchForPackageOnDisk took   0.393s to resolve Level2.umap
+[2015.07.28-19.54.04:640][308]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.54.04:641][308]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.54.04:863][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B91E40
+[2015.07.28-19.54.04:863][308]Cmd: MEM
+[2015.07.28-19.54.05:080][308]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.54.05:080][308]LogMemory: Process Physical Memory: 618.27 MB used, 621.63 MB peak
+[2015.07.28-19.54.05:080][308]LogMemory: Process Virtual Memory: 509.16 MB used, 513.23 MB peak
+[2015.07.28-19.54.05:080][308]LogMemory: Physical Memory: 4019.08 MB used, 8148.89 MB total
+[2015.07.28-19.54.05:081][308]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.54.05:081][308]LogMemory: 
+[2015.07.28-19.54.05:081][308]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.54.05:081][308]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.54.05:096][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014643s)
+[2015.07.28-19.54.05:099][308]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.05:108][308]LogPlayLevel: PIE: World Init took: (0.012487s)
+[2015.07.28-19.54.05:109][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.028256s)
+[2015.07.28-19.54.05:111][308]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.05:125][308]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.05
+[2015.07.28-19.54.05:125][308]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.05:129][308]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.05:130][308]LogWorld: Bringing up level for play took: 0.007840
+[2015.07.28-19.54.05:134][308]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.08:911][370]LogPackageName: SearchForPackageOnDisk took   0.379s to resolve Level2.umap
+[2015.07.28-19.54.09:295][370]LogPackageName: SearchForPackageOnDisk took   0.381s to resolve Level2.umap
+[2015.07.28-19.54.09:296][370]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.54.09:296][370]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.54.09:529][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000141793A0
+[2015.07.28-19.54.09:529][370]Cmd: MEM
+[2015.07.28-19.54.09:728][370]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.54.09:728][370]LogMemory: Process Physical Memory: 618.27 MB used, 621.63 MB peak
+[2015.07.28-19.54.09:728][370]LogMemory: Process Virtual Memory: 509.16 MB used, 513.23 MB peak
+[2015.07.28-19.54.09:728][370]LogMemory: Physical Memory: 4019.55 MB used, 8148.89 MB total
+[2015.07.28-19.54.09:728][370]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.54.09:728][370]LogMemory: 
+[2015.07.28-19.54.09:728][370]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.54.09:729][370]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.54.09:742][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013115s)
+[2015.07.28-19.54.09:744][370]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.09:753][370]LogPlayLevel: PIE: World Init took: (0.011075s)
+[2015.07.28-19.54.09:754][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.024999s)
+[2015.07.28-19.54.09:755][370]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.09:763][370]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.09
+[2015.07.28-19.54.09:764][370]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.09:766][370]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.09:767][370]LogWorld: Bringing up level for play took: 0.004615
+[2015.07.28-19.54.09:770][370]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.13:211][414]LogPackageName: SearchForPackageOnDisk took   0.350s to resolve Level2.umap
+[2015.07.28-19.54.13:580][414]LogPackageName: SearchForPackageOnDisk took   0.366s to resolve Level2.umap
+[2015.07.28-19.54.13:580][414]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.54.13:580][414]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.54.13:807][414]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BF642C0
+[2015.07.28-19.54.13:807][414]Cmd: MEM
+[2015.07.28-19.54.13:995][414]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.54.13:995][414]LogMemory: Process Physical Memory: 618.27 MB used, 621.63 MB peak
+[2015.07.28-19.54.13:995][414]LogMemory: Process Virtual Memory: 509.16 MB used, 513.23 MB peak
+[2015.07.28-19.54.13:995][414]LogMemory: Physical Memory: 4019.52 MB used, 8148.89 MB total
+[2015.07.28-19.54.13:995][414]LogMemory: Virtual Memory: 1083.16 MB used, 8388608.00 MB total
+[2015.07.28-19.54.13:995][414]LogMemory: 
+[2015.07.28-19.54.13:996][414]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.54.13:996][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.54.14:009][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013536s)
+[2015.07.28-19.54.14:012][414]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.14:021][414]LogPlayLevel: PIE: World Init took: (0.011835s)
+[2015.07.28-19.54.14:023][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.026946s)
+[2015.07.28-19.54.14:024][414]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.14:034][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.14
+[2015.07.28-19.54.14:034][414]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.14:036][414]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.14:037][414]LogWorld: Bringing up level for play took: 0.005136
+[2015.07.28-19.54.14:039][414]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.17:971][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013E32200
+[2015.07.28-19.54.17:972][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005F85940
+[2015.07.28-19.54.17:973][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013E31EE0
+[2015.07.28-19.54.18:893][523]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.54.20:642][580]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.54.20:694][580]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.54.21:286][580]LogPlayLevel: PIE:  Blueprint regeneration took 644 ms (1 blueprints)
+[2015.07.28-19.54.21:287][580]PIE: New page: SIE session: Level1 (Jul 28, 2015, 11:54:21 PM)
+[2015.07.28-19.54.21:288][580]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.54.21:302][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013599s)
+[2015.07.28-19.54.21:305][580]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.21:308][580]LogPlayLevel: PIE: World Init took: (0.005513s)
+[2015.07.28-19.54.21:308][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.019863s)
+[2015.07.28-19.54.21:512][580]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.54.21:545][580]LogInit: FAudioDevice initialized.
+[2015.07.28-19.54.21:623][580]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.21:635][580]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.21
+[2015.07.28-19.54.21:635][580]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.21:637][580]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.21:638][580]LogWorld: Bringing up level for play took: 0.006321
+[2015.07.28-19.54.21:641][580]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.21:648][580]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.938
+[2015.07.28-19.54.24:113][633]LogPackageName: SearchForPackageOnDisk took   0.454s to resolve Level2.umap
+[2015.07.28-19.54.24:566][633]LogPackageName: SearchForPackageOnDisk took   0.451s to resolve Level2.umap
+[2015.07.28-19.54.24:567][633]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.54.24:567][633]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.54.24:759][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010FAF740
+[2015.07.28-19.54.24:799][633]Cmd: MEM
+[2015.07.28-19.54.25:000][633]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.54.25:000][633]LogMemory: Process Physical Memory: 618.48 MB used, 622.31 MB peak
+[2015.07.28-19.54.25:000][633]LogMemory: Process Virtual Memory: 509.96 MB used, 514.03 MB peak
+[2015.07.28-19.54.25:000][633]LogMemory: Physical Memory: 4019.61 MB used, 8148.89 MB total
+[2015.07.28-19.54.25:001][633]LogMemory: Virtual Memory: 1079.89 MB used, 8388608.00 MB total
+[2015.07.28-19.54.25:001][633]LogMemory: 
+[2015.07.28-19.54.25:001][633]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.54.25:001][633]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.54.25:014][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013145s)
+[2015.07.28-19.54.25:017][633]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.25:025][633]LogPlayLevel: PIE: World Init took: (0.010843s)
+[2015.07.28-19.54.25:026][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.024802s)
+[2015.07.28-19.54.25:027][633]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.25:036][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.25
+[2015.07.28-19.54.25:036][633]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.25:039][633]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.25:039][633]LogWorld: Bringing up level for play took: 0.005068
+[2015.07.28-19.54.25:045][633]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.25:582][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013E331A0
+[2015.07.28-19.54.27:133][685]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.54.27:184][685]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.54.27:756][685]LogPlayLevel: PIE:  Blueprint regeneration took 623 ms (1 blueprints)
+[2015.07.28-19.54.27:757][685]PIE: New page: SIE session: Level1 (Jul 28, 2015, 11:54:27 PM)
+[2015.07.28-19.54.27:758][685]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.54.27:772][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013486s)
+[2015.07.28-19.54.27:775][685]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.27:778][685]LogPlayLevel: PIE: World Init took: (0.005788s)
+[2015.07.28-19.54.27:778][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.020079s)
+[2015.07.28-19.54.27:993][685]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.54.28:026][685]LogInit: FAudioDevice initialized.
+[2015.07.28-19.54.28:105][685]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.28:120][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.28
+[2015.07.28-19.54.28:120][685]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.28:122][685]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.28:124][685]LogWorld: Bringing up level for play took: 0.009045
+[2015.07.28-19.54.28:128][685]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.28:137][685]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.427
+[2015.07.28-19.54.29:499][711]LogPackageName: SearchForPackageOnDisk took   0.372s to resolve Level2.umap
+[2015.07.28-19.54.29:853][711]LogPackageName: SearchForPackageOnDisk took   0.352s to resolve Level2.umap
+[2015.07.28-19.54.29:853][711]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.54.29:854][711]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.54.30:073][711]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010FACF40
+[2015.07.28-19.54.30:074][711]Cmd: MEM
+[2015.07.28-19.54.30:266][711]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.54.30:266][711]LogMemory: Process Physical Memory: 619.38 MB used, 623.20 MB peak
+[2015.07.28-19.54.30:266][711]LogMemory: Process Virtual Memory: 509.96 MB used, 514.03 MB peak
+[2015.07.28-19.54.30:266][711]LogMemory: Physical Memory: 4019.10 MB used, 8148.89 MB total
+[2015.07.28-19.54.30:266][711]LogMemory: Virtual Memory: 1079.89 MB used, 8388608.00 MB total
+[2015.07.28-19.54.30:266][711]LogMemory: 
+[2015.07.28-19.54.30:266][711]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.54.30:267][711]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.54.30:281][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014006s)
+[2015.07.28-19.54.30:283][711]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.30:291][711]LogPlayLevel: PIE: World Init took: (0.010014s)
+[2015.07.28-19.54.30:291][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.024836s)
+[2015.07.28-19.54.30:293][711]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.30:302][711]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.30
+[2015.07.28-19.54.30:302][711]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.30:304][711]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.30:305][711]LogWorld: Bringing up level for play took: 0.004938
+[2015.07.28-19.54.30:309][711]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.30:856][713]LogPackageName: SearchForPackageOnDisk took   0.430s to resolve Level2.umap
+[2015.07.28-19.54.31:299][713]LogPackageName: SearchForPackageOnDisk took   0.441s to resolve Level2.umap
+[2015.07.28-19.54.31:299][713]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.54.31:300][713]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.54.31:530][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026D7EDE0
+[2015.07.28-19.54.31:530][713]Cmd: MEM
+[2015.07.28-19.54.31:716][713]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.54.31:716][713]LogMemory: Process Physical Memory: 619.38 MB used, 623.20 MB peak
+[2015.07.28-19.54.31:717][713]LogMemory: Process Virtual Memory: 509.96 MB used, 514.03 MB peak
+[2015.07.28-19.54.31:717][713]LogMemory: Physical Memory: 4019.07 MB used, 8148.89 MB total
+[2015.07.28-19.54.31:717][713]LogMemory: Virtual Memory: 1079.89 MB used, 8388608.00 MB total
+[2015.07.28-19.54.31:717][713]LogMemory: 
+[2015.07.28-19.54.31:717][713]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.54.31:717][713]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.54.31:731][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014020s)
+[2015.07.28-19.54.31:734][713]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.31:740][713]LogPlayLevel: PIE: World Init took: (0.008431s)
+[2015.07.28-19.54.31:740][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.023452s)
+[2015.07.28-19.54.31:742][713]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.31:751][713]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.31
+[2015.07.28-19.54.31:751][713]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.31:753][713]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.31:753][713]LogWorld: Bringing up level for play took: 0.004564
+[2015.07.28-19.54.31:758][713]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.32:206][714]LogPackageName: SearchForPackageOnDisk took   0.373s to resolve Level2.umap
+[2015.07.28-19.54.32:578][714]LogPackageName: SearchForPackageOnDisk took   0.370s to resolve Level2.umap
+[2015.07.28-19.54.32:578][714]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.54.32:579][714]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.54.32:791][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026D7ED40
+[2015.07.28-19.54.32:791][714]Cmd: MEM
+[2015.07.28-19.54.32:994][714]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.54.32:994][714]LogMemory: Process Physical Memory: 619.38 MB used, 623.20 MB peak
+[2015.07.28-19.54.32:994][714]LogMemory: Process Virtual Memory: 509.96 MB used, 514.03 MB peak
+[2015.07.28-19.54.32:994][714]LogMemory: Physical Memory: 4019.08 MB used, 8148.89 MB total
+[2015.07.28-19.54.32:994][714]LogMemory: Virtual Memory: 1079.89 MB used, 8388608.00 MB total
+[2015.07.28-19.54.32:994][714]LogMemory: 
+[2015.07.28-19.54.32:994][714]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.54.32:994][714]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level2
+[2015.07.28-19.54.33:008][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013005s)
+[2015.07.28-19.54.33:010][714]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.33:014][714]LogPlayLevel: PIE: World Init took: (0.006325s)
+[2015.07.28-19.54.33:014][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level2.Level1 (0.020129s)
+[2015.07.28-19.54.33:016][714]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.54.33:028][714]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level1 up for play (max tick rate 60) at 2015.07.28-21.54.33
+[2015.07.28-19.54.33:028][714]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.33:030][714]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level1:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.54.33:031][714]LogWorld: Bringing up level for play took: 0.005124
+[2015.07.28-19.54.33:035][714]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.54.36:289][794]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E73F600
+[2015.07.28-19.54.39:215][898]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.54.39:447][898]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.28-19.54.39:451][898]LightingResults: New page: Lighting Build
+[2015.07.28-19.54.39:550][898]LoadErrors: New page: Loading map: Level2.umap
+[2015.07.28-19.54.39:551][898]MapCheck: New page: Map Check
+[2015.07.28-19.54.39:552][898]LightingResults: New page: Lighting Build
+[2015.07.28-19.54.39:756][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027BE9800
+[2015.07.28-19.54.39:913][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B93920
+[2015.07.28-19.54.40:202][898]LogAIModule: Creating AISystem for world Level2
+[2015.07.28-19.54.40:259][898]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.28-19.54.40:468][898]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.28-19.54.40:770][898]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 301.468ms to complete.
+[2015.07.28-19.54.40:776][898]LogFileHelpers: Loading map 'Level2' took 1.334
+[2015.07.28-19.54.43:855][ 11]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.54.44:768][ 41]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.54.46:339][ 87]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.54.46:407][ 87]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.54.55:474][245]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.54.56:006][245]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.56:239][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000249E0860
+[2015.07.28-19.54.56:357][245]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.28-19.54.56:361][245]LightingResults: New page: Lighting Build
+[2015.07.28-19.54.56:468][245]LoadErrors: New page: Loading map: Level1.umap
+[2015.07.28-19.54.56:470][245]MapCheck: New page: Map Check
+[2015.07.28-19.54.56:470][245]LightingResults: New page: Lighting Build
+[2015.07.28-19.54.56:635][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CF18720
+[2015.07.28-19.54.57:578][245]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.54.57:635][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.28-19.54.57:848][245]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.28-19.54.58:155][245]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 306.324ms to complete.
+[2015.07.28-19.54.58:162][245]LogFileHelpers: Loading map 'Level1' took 1.811
+[2015.07.28-19.55.02:409][400]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.03:172][424]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.05:386][499]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.05:466][499]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.16:011][676]BlueprintLog: New page: Compile Level1
+[2015.07.28-19.55.16:665][676]BlueprintEditorCompileResults: Info [3113.52] Compile of Level1 successful! [in 653 ms]
+[2015.07.28-19.55.22:825][867]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.22:909][867]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.29:044][940]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.55.29:572][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000283A1BC0
+[2015.07.28-19.55.29:700][940]BlueprintEditorCompileResults: Info [3126.55] Compile of MainMenu successful! [in 655 ms]
+[2015.07.28-19.55.30:828][958]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.31:532][969]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.33:289][997]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.55.33:954][997]BlueprintEditorCompileResults: Info [3130.81] Compile of MainMenu successful! [in 665 ms]
+[2015.07.28-19.55.36:801][ 64]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.55.36:855][ 64]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.55.37:364][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002330DC60
+[2015.07.28-19.55.37:431][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002330E520
+[2015.07.28-19.55.37:431][ 64]LogPlayLevel: PIE:  Blueprint regeneration took 629 ms (1 blueprints)
+[2015.07.28-19.55.37:432][ 64]PIE: New page: SIE session: Level1 (Jul 28, 2015, 11:55:37 PM)
+[2015.07.28-19.55.37:433][ 64]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.55.37:447][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012986s)
+[2015.07.28-19.55.37:449][ 64]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.55.37:452][ 64]LogPlayLevel: PIE: World Init took: (0.005142s)
+[2015.07.28-19.55.37:453][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.019053s)
+[2015.07.28-19.55.37:662][ 64]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.55.37:696][ 64]LogInit: FAudioDevice initialized.
+[2015.07.28-19.55.37:779][ 64]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.55.37:789][ 64]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.55.37
+[2015.07.28-19.55.37:789][ 64]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.55.37:792][ 64]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.55.37:793][ 64]LogWorld: Bringing up level for play took: 0.005449
+[2015.07.28-19.55.37:796][ 64]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.55.37:804][ 64]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.091
+[2015.07.28-19.55.39:387][ 96]LogPackageName: SearchForPackageOnDisk took   0.412s to resolve Level2.umap
+[2015.07.28-19.55.39:749][ 96]LogPackageName: SearchForPackageOnDisk took   0.360s to resolve Level2.umap
+[2015.07.28-19.55.39:749][ 96]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.55.39:750][ 96]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.55.39:965][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000142DE2A0
+[2015.07.28-19.55.39:965][ 96]Cmd: MEM
+[2015.07.28-19.55.40:163][ 96]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.55.40:163][ 96]LogMemory: Process Physical Memory: 621.70 MB used, 625.10 MB peak
+[2015.07.28-19.55.40:163][ 96]LogMemory: Process Virtual Memory: 514.04 MB used, 517.92 MB peak
+[2015.07.28-19.55.40:163][ 96]LogMemory: Physical Memory: 4017.74 MB used, 8148.89 MB total
+[2015.07.28-19.55.40:163][ 96]LogMemory: Virtual Memory: 1083.95 MB used, 8388608.00 MB total
+[2015.07.28-19.55.40:163][ 96]LogMemory: 
+[2015.07.28-19.55.40:163][ 96]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.55.40:726][ 96]LogAIModule: Creating AISystem for world Level2
+[2015.07.28-19.55.40:733][ 96]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.55.40:742][ 96]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2015.07.28-21.55.40
+[2015.07.28-19.55.40:743][ 96]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.55.40:745][ 96]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.55.40:745][ 96]LogWorld: Bringing up level for play took: 0.004886
+[2015.07.28-19.55.40:750][ 96]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.55.45:174][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015AD6F20
+[2015.07.28-19.55.47:811][300]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.55.55:853][573]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.55.55:906][573]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.55.56:479][573]LogPlayLevel: PIE:  Blueprint regeneration took 625 ms (1 blueprints)
+[2015.07.28-19.55.56:479][573]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:55:56 PM)
+[2015.07.28-19.55.56:481][573]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.55.56:495][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013711s)
+[2015.07.28-19.55.56:497][573]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.55.56:500][573]LogPlayLevel: PIE: World Init took: (0.005198s)
+[2015.07.28-19.55.56:501][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.019697s)
+[2015.07.28-19.55.56:709][573]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.55.56:741][573]LogInit: FAudioDevice initialized.
+[2015.07.28-19.55.56:818][573]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.55.56:827][573]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.55.56
+[2015.07.28-19.55.56:827][573]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.55.56:829][573]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.55.56:830][573]LogWorld: Bringing up level for play took: 0.005263
+[2015.07.28-19.55.56:860][573]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.147
+[2015.07.28-19.56.00:739][689]LogPackageName: SearchForPackageOnDisk took   0.368s to resolve Level2.umap
+[2015.07.28-19.56.01:094][689]LogPackageName: SearchForPackageOnDisk took   0.353s to resolve Level2.umap
+[2015.07.28-19.56.01:094][689]LogNet: Browse: /Game/Maps/Level2
+[2015.07.28-19.56.01:095][689]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.07.28-19.56.01:311][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000142DF7E0
+[2015.07.28-19.56.01:312][689]Cmd: MEM
+[2015.07.28-19.56.01:506][689]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.56.01:506][689]LogMemory: Process Physical Memory: 650.07 MB used, 652.59 MB peak
+[2015.07.28-19.56.01:506][689]LogMemory: Process Virtual Memory: 541.16 MB used, 545.00 MB peak
+[2015.07.28-19.56.01:507][689]LogMemory: Physical Memory: 4039.20 MB used, 8148.89 MB total
+[2015.07.28-19.56.01:507][689]LogMemory: Virtual Memory: 1111.01 MB used, 8388608.00 MB total
+[2015.07.28-19.56.01:507][689]LogMemory: 
+[2015.07.28-19.56.01:507][689]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.56.01:526][689]LogAIModule: Creating AISystem for world Level2
+[2015.07.28-19.56.01:533][689]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.56.01:542][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2015.07.28-21.56.01
+[2015.07.28-19.56.01:542][689]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameSession_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.56.01:545][689]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.GameNetworkManager_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.56.01:545][689]LogWorld: Bringing up level for play took: 0.004954
+[2015.07.28-19.56.01:548][689]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.56.07:351][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000064A1440
+[2015.07.28-19.56.09:845][958]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.11:771][ 20]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.56.11:823][ 20]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.07.28-19.56.12:381][ 20]LogPlayLevel: PIE:  Blueprint regeneration took 610 ms (1 blueprints)
+[2015.07.28-19.56.12:382][ 20]PIE: New page: PIE session: Level1 (Jul 28, 2015, 11:56:12 PM)
+[2015.07.28-19.56.12:383][ 20]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2015.07.28-19.56.12:397][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013816s)
+[2015.07.28-19.56.12:400][ 20]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.56.12:403][ 20]LogPlayLevel: PIE: World Init took: (0.005925s)
+[2015.07.28-19.56.12:404][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.020698s)
+[2015.07.28-19.56.12:614][ 20]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.56.12:666][ 20]LogInit: FAudioDevice initialized.
+[2015.07.28-19.56.12:758][ 20]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.56.12:768][ 20]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.56.12
+[2015.07.28-19.56.12:769][ 20]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.56.12:771][ 20]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.56.12:772][ 20]LogWorld: Bringing up level for play took: 0.005020
+[2015.07.28-19.56.12:788][ 20]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.074
+[2015.07.28-19.56.14:523][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000142DE840
+[2015.07.28-19.56.21:156][300]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.22:509][340]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.22:744][340]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.28-19.56.22:748][340]LightingResults: New page: Lighting Build
+[2015.07.28-19.56.22:922][340]LoadErrors: New page: Loading map: Level1.umap
+[2015.07.28-19.56.22:924][340]MapCheck: New page: Map Check
+[2015.07.28-19.56.22:924][340]LightingResults: New page: Lighting Build
+[2015.07.28-19.56.23:130][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028187E20
+[2015.07.28-19.56.23:631][340]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.56.23:693][340]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.28-19.56.23:913][340]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.28-19.56.24:186][340]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 271.389ms to complete.
+[2015.07.28-19.56.24:189][340]LogFileHelpers: Loading map 'Level1' took 1.450
+[2015.07.28-19.56.25:968][393]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.27:178][427]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.35:457][740]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.35:543][740]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.36:388][740]LogMetaData: Removing '/Game/Maps/Menu.Menu_C' ref from Metadata '/Game/Maps/Level1.PackageMetaData'
+[2015.07.28-19.56.36:389][740]LogMetaData: Removing '/Game/Maps/Menu.Menu:PersistentLevel.Menu.EventGraph.K2Node_Event_142' ref from Metadata '/Game/Maps/Level1.PackageMetaData'
+[2015.07.28-19.56.36:389][740]LogMetaData: Removing '/Game/Maps/Menu.SKEL_Menu_C' ref from Metadata '/Game/Maps/Level1.PackageMetaData'
+[2015.07.28-19.56.36:436][740]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.36:761][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.28-19.56.37:452][740]LogSavePackage: Save=482.148590ms
+[2015.07.28-19.56.37:452][740]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Menu786D6D72475D93CC495649BD2EF72F28.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap'
+[2015.07.28-19.56.37:602][740]LogFileHelpers: Saving map 'Menu' took 1.136
+[2015.07.28-19.56.37:650][740]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.37:914][740]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.38:636][740]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.38:748][740]LogAIModule: Creating AISystem for world Level2
+[2015.07.28-19.56.38:856][740]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.40:096][772]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.45:010][945]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.48:453][ 63]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.48:520][ 63]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.48:716][ 63]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.49:052][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.28-19.56.49:306][ 63]LogSavePackage: Save=42.146397ms
+[2015.07.28-19.56.49:306][ 63]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level1EF7C35824D0172D9CB6E1EB3A219874A.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap'
+[2015.07.28-19.56.49:315][ 63]LogFileHelpers: Saving map 'Level1' took 0.558
+[2015.07.28-19.56.49:351][ 63]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.49:628][ 63]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.52:981][154]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.53:201][154]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.28-19.56.53:205][154]LightingResults: New page: Lighting Build
+[2015.07.28-19.56.53:315][154]LoadErrors: New page: Loading map: Menu.umap
+[2015.07.28-19.56.53:316][154]MapCheck: New page: Map Check
+[2015.07.28-19.56.53:316][154]LightingResults: New page: Lighting Build
+[2015.07.28-19.56.53:531][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BA58CC0
+[2015.07.28-19.56.54:409][154]LogAIModule: Creating AISystem for world Menu
+[2015.07.28-19.56.54:472][154]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.28-19.56.54:708][154]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.28-19.56.54:975][154]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 266.96ms to complete.
+[2015.07.28-19.56.54:979][154]LogFileHelpers: Loading map 'Menu' took 1.782
+[2015.07.28-19.56.56:400][201]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.56:485][201]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.56.56:643][201]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.28-19.56.56:693][201]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.28-19.57.09:032][367]BlueprintLog: New page: Compile MainMenu
+[2015.07.28-19.57.09:693][367]LogD3D11RHI: InitD3DDevice
+[2015.07.28-19.57.09:752][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2015.07.28-19.57.09:910][367]LogSavePackage: Save=117.900818ms
+[2015.07.28-19.57.09:911][367]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MainMenu66CD0BC04C983807454D959957A5AADC.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Blueprints/MainMenu.uasset'
+[2015.07.28-19.57.09:934][367]BlueprintEditorCompileResults: Info [3226.78] Compile of MainMenu successful! [in 900 ms]
+[2015.07.28-19.57.13:056][418]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.57.13:109][418]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2015.07.28-19.57.13:695][418]LogPlayLevel: PIE:  Blueprint regeneration took 638 ms (1 blueprints)
+[2015.07.28-19.57.13:695][418]PIE: New page: PIE session: Menu (Jul 28, 2015, 11:57:13 PM)
+[2015.07.28-19.57.13:697][418]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2015.07.28-19.57.13:711][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013666s)
+[2015.07.28-19.57.13:714][418]LogAIModule: Creating AISystem for world Menu
+[2015.07.28-19.57.13:716][418]LogPlayLevel: PIE: World Init took: (0.005517s)
+[2015.07.28-19.57.13:717][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.020011s)
+[2015.07.28-19.57.13:947][418]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.57.13:981][418]LogInit: FAudioDevice initialized.
+[2015.07.28-19.57.14:111][418]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.57.14:122][418]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2015.07.28-21.57.14
+[2015.07.28-19.57.14:122][418]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.57.14:126][418]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.57.14:127][418]LogWorld: Bringing up level for play took: 0.007836
+[2015.07.28-19.57.14:144][418]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.427
+[2015.07.28-19.57.17:910][435]LogPackageName: SearchForPackageOnDisk took   0.357s to resolve Level1.umap
+[2015.07.28-19.57.18:285][435]LogPackageName: SearchForPackageOnDisk took   0.372s to resolve Level1.umap
+[2015.07.28-19.57.18:285][435]LogNet: Browse: /Game/Maps/Level1
+[2015.07.28-19.57.18:286][435]LogLoad: LoadMap: /Game/Maps/Level1
+[2015.07.28-19.57.18:541][435]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F782C0
+[2015.07.28-19.57.18:541][435]Cmd: MEM
+[2015.07.28-19.57.18:737][435]LogMemory: Platform Memory Stats for Windows
+[2015.07.28-19.57.18:737][435]LogMemory: Process Physical Memory: 655.25 MB used, 655.80 MB peak
+[2015.07.28-19.57.18:738][435]LogMemory: Process Virtual Memory: 548.24 MB used, 549.32 MB peak
+[2015.07.28-19.57.18:738][435]LogMemory: Physical Memory: 4052.65 MB used, 8148.89 MB total
+[2015.07.28-19.57.18:738][435]LogMemory: Virtual Memory: 1121.34 MB used, 8388608.00 MB total
+[2015.07.28-19.57.18:738][435]LogMemory: 
+[2015.07.28-19.57.18:738][435]Allocator Stats for TBB: (not implemented)
+[2015.07.28-19.57.18:760][435]LogAIModule: Creating AISystem for world Level1
+[2015.07.28-19.57.18:766][435]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.57.18:775][435]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2015.07.28-21.57.18
+[2015.07.28-19.57.18:775][435]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.57.18:777][435]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.57.18:778][435]LogWorld: Bringing up level for play took: 0.004833
+[2015.07.28-19.57.18:781][435]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.28-19.57.24:007][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019D07380
+[2015.07.28-19.57.27:923][594]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.28-19.57.27:975][594]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2015.07.28-19.57.28:556][594]LogPlayLevel: PIE:  Blueprint regeneration took 632 ms (1 blueprints)
+[2015.07.28-19.57.28:557][594]PIE: New page: PIE session: Menu (Jul 28, 2015, 11:57:28 PM)
+[2015.07.28-19.57.28:558][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2015.07.28-19.57.28:571][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012599s)
+[2015.07.28-19.57.28:574][594]LogAIModule: Creating AISystem for world Menu
+[2015.07.28-19.57.28:576][594]LogPlayLevel: PIE: World Init took: (0.005061s)
+[2015.07.28-19.57.28:577][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.018449s)
+[2015.07.28-19.57.28:786][594]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.28-19.57.28:819][594]LogInit: FAudioDevice initialized.
+[2015.07.28-19.57.28:897][594]LogWorld: Game class is 'GameMode'
+[2015.07.28-19.57.28:907][594]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2015.07.28-21.57.28
+[2015.07.28-19.57.28:907][594]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.57.28:909][594]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.28-19.57.28:910][594]LogWorld: Bringing up level for play took: 0.005133
+[2015.07.28-19.57.28:928][594]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 1.211
+[2015.07.28-19.57.31:318][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000006110CC0
+[2015.07.28-20.02.29:226][655]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000200D1300
+[2015.07.28-20.02.29:230][655]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000200D2660
+[2015.07.28-20.02.30:836][656]Cmd: QUIT_EDITOR
+[2015.07.28-20.02.32:513][656]LogExit: Preparing to exit.
+[2015.07.28-20.02.33:229][656]LogExit: Editor shut down
+[2015.07.28-20.02.33:231][656]LogExit: Transaction tracking system shut down
+[2015.07.28-20.02.33:242][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010FAD8A0
+[2015.07.28-20.02.33:242][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E31120
+[2015.07.28-20.02.34:143][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000142DD620
+[2015.07.28-20.02.34:143][656]LogExit: Object subsystem successfully closed.
+[2015.07.28-20.02.34:174][656]LogD3D11RHI: Shutdown
+[2015.07.28-20.02.34:175][656]LogD3D11RHI: CleanupD3DDevice
+[2015.07.28-20.02.34:431][656]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.28-20.02.34:551][656]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (190)
+[2015.07.28-20.02.34:551][656]LogModuleManager: Shutting down and abandoning module SequencerWidgets (189)
+[2015.07.28-20.02.34:551][656]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.28-20.02.34:552][656]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.28-20.02.34:552][656]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.28-20.02.34:552][656]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.28-20.02.34:552][656]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.28-20.02.34:554][656]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.28-20.02.34:554][656]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.28-20.02.34:555][656]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.28-20.02.34:555][656]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.28-20.02.34:555][656]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.28-20.02.34:556][656]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.28-20.02.34:556][656]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.28-20.02.34:556][656]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.28-20.02.34:556][656]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.28-20.02.34:556][656]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.28-20.02.34:556][656]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.28-20.02.34:557][656]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.28-20.02.34:557][656]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.28-20.02.34:557][656]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.28-20.02.34:557][656]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.28-20.02.34:558][656]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.28-20.02.34:558][656]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.28-20.02.34:558][656]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.28-20.02.34:558][656]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.28-20.02.34:558][656]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.28-20.02.34:558][656]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.28-20.02.34:666][656]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.28-20.02.34:667][656]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.28-20.02.34:668][656]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.28-20.02.34:668][656]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.28-20.02.34:668][656]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.28-20.02.34:668][656]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.28-20.02.34:668][656]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.28-20.02.34:668][656]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.28-20.02.34:669][656]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.28-20.02.34:669][656]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.28-20.02.34:669][656]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.28-20.02.34:669][656]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.28-20.02.34:670][656]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.28-20.02.34:670][656]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.28-20.02.34:670][656]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.28-20.02.34:670][656]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.28-20.02.34:670][656]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.28-20.02.34:670][656]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.28-20.02.34:671][656]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.28-20.02.34:671][656]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.28-20.02.34:671][656]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.28-20.02.34:671][656]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.28-20.02.34:793][656]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.28-20.02.34:793][656]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.28-20.02.34:794][656]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.28-20.02.34:794][656]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.28-20.02.34:799][656]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.28-20.02.34:799][656]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.28-20.02.34:799][656]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.28-20.02.34:799][656]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.28-20.02.34:799][656]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.28-20.02.34:799][656]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.28-20.02.34:799][656]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.28-20.02.34:800][656]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.28-20.02.34:800][656]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.28-20.02.34:800][656]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.28-20.02.34:800][656]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.28-20.02.34:800][656]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.28-20.02.34:800][656]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.28-20.02.34:800][656]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.28-20.02.34:864][656]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.28-20.02.34:865][656]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.28-20.02.34:867][656]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.28-20.02.34:867][656]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.28-20.02.34:867][656]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.28-20.02.34:867][656]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.28-20.02.34:867][656]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.28-20.02.34:905][656]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.28-20.02.34:905][656]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.28-20.02.34:905][656]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.28-20.02.34:906][656]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.28-20.02.34:906][656]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.28-20.02.34:906][656]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.28-20.02.34:906][656]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.28-20.02.34:906][656]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.28-20.02.34:906][656]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.28-20.02.34:907][656]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.28-20.02.34:908][656]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.28-20.02.34:908][656]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.28-20.02.34:909][656]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.28-20.02.34:909][656]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.28-20.02.34:910][656]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.28-20.02.34:916][656]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.28-20.02.34:920][656]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.28-20.02.34:921][656]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.28-20.02.35:021][656]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.28-20.02.35:021][656]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.28-20.02.35:036][656]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.28-20.02.35:036][656]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.28-20.02.35:038][656]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.28-20.02.35:039][656]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.28-20.02.35:039][656]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.28-20.02.35:039][656]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.28-20.02.35:039][656]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.28-20.02.35:039][656]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.28-20.02.35:053][656]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.28-20.02.35:053][656]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.28-20.02.35:053][656]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.28-20.02.35:054][656]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.28-20.02.35:054][656]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.28-20.02.35:054][656]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.28-20.02.35:054][656]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.28-20.02.35:054][656]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.28-20.02.35:054][656]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.28-20.02.35:054][656]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.28-20.02.35:072][656]LogDerivedDataCache: Shutdown
+[2015.07.28-20.02.35:072][656]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.28-20.02.35:072][656]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.28-20.02.35:072][656]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.28-20.02.35:073][656]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.28-20.02.35:074][656]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.28-20.02.35:075][656]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.28-20.02.35:075][656]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.28-20.02.35:075][656]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.28-20.02.35:075][656]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.28-20.02.35:075][656]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.28-20.02.35:075][656]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.28-20.02.35:075][656]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.28-20.02.35:076][656]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.28-20.02.35:078][656]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.28-20.02.35:078][656]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.28-20.02.35:078][656]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.28-20.02.35:078][656]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.28-20.02.35:078][656]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.28-20.02.35:093][656]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.28-20.02.35:093][656]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.28-20.02.35:093][656]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.28-20.02.35:093][656]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.28-20.02.35:093][656]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.28-20.02.35:093][656]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.28-20.02.35:093][656]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.28-20.02.35:094][656]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.28-20.02.35:094][656]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.28-20.02.35:096][656]LogExit: Exiting.
+[2015.07.28-20.02.35:177][656]Log file closed, 07/28/15 22:02:35
