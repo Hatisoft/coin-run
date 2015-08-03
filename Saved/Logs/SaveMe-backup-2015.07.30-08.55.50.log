@@ -1,0 +1,1489 @@
+﻿[2015.07.30-05.50.24:569][  0]Log file open, 07/30/15 07:50:24
+[2015.07.30-05.50.24:569][  0]LogInit:Display: Running engine for game: SaveMe
+[2015.07.30-05.50.24:569][  0]LogInit:Display: RandInit(1912215785) SRandInit(1912215786).
+[2015.07.30-05.50.24:569][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.30-05.50.24:569][  0]LogStats: Stats thread started
+[2015.07.30-05.50.24:569][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-05.50.24:569][  0]LogInit: API Version: 2579680
+[2015.07.30-05.50.24:569][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.07.30-05.50.24:569][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.30-05.50.24:569][  0]LogInit: Build Configuration: Development
+[2015.07.30-05.50.24:569][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.30-05.50.24:569][  0]LogInit: Command line: 
+[2015.07.30-05.50.24:569][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.30-05.50.24:569][  0]LogInit: Rocket: 1
+[2015.07.30-05.50.24:584][  0]LogInit: Using libcurl 7.41.0
+[2015.07.30-05.50.24:584][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.30-05.50.24:584][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.30-05.50.24:584][  0]LogInit:  - other features:
+[2015.07.30-05.50.24:584][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.30-05.50.24:584][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.30-05.50.24:584][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.30-05.50.24:584][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.30-05.50.24:584][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.30-05.50.24:585][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.30-05.50.24:585][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.30-05.50.24:585][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.30-05.50.24:585][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.30-05.50.24:585][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.30-05.50.24:597][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.30-05.50.24:611][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.30-05.50.24:619][  0]LogInit: Object subsystem initialized
+[2015.07.30-05.50.24:620][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.30-05.50.24:620][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.50.24:620][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.30-05.50.24:620][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.50.24:620][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.30-05.50.24:620][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.50.24:620][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-05.50.24:620][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.30-05.50.24:631][  0]LogInit: Computer: SLB-H7VRKQ1
+[2015.07.30-05.50.24:631][  0]LogInit: User: ALorente
+[2015.07.30-05.50.24:631][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.30-05.50.24:631][  0]LogInit: High frequency timer resolution =2.630791 MHz
+[2015.07.30-05.50.24:631][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.07.30-05.50.24:631][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.30-05.50.24:631][  0]LogMemory: Process Physical Memory: 49.00 MB used, 49.00 MB peak
+[2015.07.30-05.50.24:631][  0]LogMemory: Process Virtual Memory: 23.20 MB used, 23.20 MB peak
+[2015.07.30-05.50.24:631][  0]LogMemory: Physical Memory: 4102.64 MB used, 8148.89 MB total
+[2015.07.30-05.50.24:631][  0]LogMemory: Virtual Memory: 283.23 MB used, 8388608.00 MB total
+[2015.07.30-05.50.24:662][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.30-05.50.24:897][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.30-05.50.25:454][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 2000M (Feature Level 11_0)
+[2015.07.30-05.50.25:454][  0]LogD3D11RHI: Adapter has 1999MB of dedicated video memory, 0MB of dedicated system memory, and 3818MB of shared system memory, 2 output[s]
+[2015.07.30-05.50.25:454][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.30-05.50.25:460][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.50.25:460][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.30-05.50.25:460][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.30-05.50.25:475][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.30-05.50.25:486][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.30-05.50.26:384][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.30-05.50.26:399][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.30-05.50.26:418][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.30-05.50.26:436][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.30-05.50.26:453][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.30-05.50.26:466][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.30-05.50.26:479][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.30-05.50.26:492][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.30-05.50.26:505][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.30-05.50.26:518][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.30-05.50.26:532][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.30-05.50.26:555][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.30-05.50.26:618][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.30-05.50.26:631][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.30-05.50.26:644][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.30-05.50.26:659][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.30-05.50.26:660][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-05.50.26:898][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.30-05.50.26:953][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/ALorente/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-05.50.26:953][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ALorente/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.30-05.50.26:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Workspace/Code/BitBucket/SaveMe/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.30-05.50.26:953][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.30-05.50.26:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Workspace/Code/BitBucket/SaveMe/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.30-05.50.26:954][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.30-05.50.27:134][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.30-05.50.27:149][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ALorente/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.30-05.50.27:426][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-05.50.27:434][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-05.50.27:434][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-05.50.27:466][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.30-05.50.27:466][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.30-05.50.27:991][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.30-05.50.29:356][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.30-05.50.29:763][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.50.29:791][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.50.29:801][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.50.29:814][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.50.30:104][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.30-05.50.30:104][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.30-05.50.30:178][  0]LogEngine: Initializing Engine...
+[2015.07.30-05.50.30:180][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.30-05.50.30:181][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.30-05.50.30:385][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-05.50.30:392][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-05.50.30:415][  0]LogInit: FAudioDevice initialized.
+[2015.07.30-05.50.30:474][  0]LogDerivedDataCache: Saved boot cache 0.06s 53MB C:/Users/ALorente/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-05.50.30:483][  0]LogInit: Texture streaming: Disabled
+[2015.07.30-05.50.30:515][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.30-05.50.30:515][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-05.50.30:516][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d64b808f4af5ec925fa497bbc1d7337b|81643a0ffa4546099291d92070e6ccbc|952f4c26-71e8-47b2-8a9a-557a0707c735
+[2015.07.30-05.50.30:516][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.30-05.50.30:573][  0]LogInit: Transaction tracking system initialized
+[2015.07.30-05.50.30:749][  0]BlueprintLog: New page: Editor Load
+[2015.07.30-05.50.30:791][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2015.07.30-05.50.30:791][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.30-05.50.31:900][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.30-05.50.31:900][  0]LogConsoleResponse:Display: 
+[2015.07.30-05.50.32:077][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.30-05.50.32:402][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.50.32:402][  0]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-05.50.32:411][  0]LightingResults: New page: Lighting Build
+[2015.07.30-05.50.32:432][  0]MapCheck: New page: Map Check
+[2015.07.30-05.50.32:432][  0]LightingResults: New page: Lighting Build
+[2015.07.30-05.50.32:460][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BEB09A0
+[2015.07.30-05.50.32:742][  0]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-05.50.32:744][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-05.50.32:745][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-05.50.32:793][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.192ms to complete.
+[2015.07.30-05.50.32:793][  0]LogFileHelpers: Loading map 'Menu' took 0.390
+[2015.07.30-05.50.32:980][  0]LogCollectionManager: Loaded 0 collections in 0.003413 seconds
+[2015.07.30-05.50.32:993][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 1792 classes and 301 folders.
+[2015.07.30-05.50.33:092][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.30-05.50.33:295][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.30-05.50.33:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.07.30-05.50.33:443][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.30-05.50.33:453][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.50.33:459][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.30-05.50.33:483][  0]LogLoad: Full Startup: 10.81 seconds (BP compile: 0.25 seconds)
+[2015.07.30-05.50.33:974][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.30-05.50.34:020][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.07.30-05.50.34:161][  0]LogRenderer: Reallocating scene render targets to support 1056x584 (Frame:2).
+[2015.07.30-05.50.35:966][  6]LogAssetRegistry: Asset discovery search completed in 5.1844 seconds
+[2015.07.30-05.57.59:849][456]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.09:129][784]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.18:910][354]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.19:014][354]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.19:142][354]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.19:166][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/bg_castle" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/bg_castle.uasset" SILENT=true
+[2015.07.30-05.58.19:174][354]LogSavePackage: Save=6.903247ms
+[2015.07.30-05.58.19:174][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/bg_castle2958373C4E316AE0D5F3D1BEDDDAD782.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/bg_castle.uasset'
+[2015.07.30-05.58.19:187][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/saw" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw.uasset" SILENT=true
+[2015.07.30-05.58.19:194][354]LogSavePackage: Save=4.989754ms
+[2015.07.30-05.58.19:194][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawC1CEA3844156A75FAF0078A10F0385C1.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw.uasset'
+[2015.07.30-05.58.19:206][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/sawHalf" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf.uasset" SILENT=true
+[2015.07.30-05.58.19:212][354]LogSavePackage: Save=4.779551ms
+[2015.07.30-05.58.19:212][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalfF3E738C24A5B7BAF8C287996DCE062CC.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf.uasset'
+[2015.07.30-05.58.19:224][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/sawHalf_dead" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_dead.uasset" SILENT=true
+[2015.07.30-05.58.19:229][354]LogSavePackage: Save=4.721774ms
+[2015.07.30-05.58.19:229][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_dead53C96C454993136E8C87F89C85C0FD89.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_dead.uasset'
+[2015.07.30-05.58.19:240][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/sawHalf_move" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_move.uasset" SILENT=true
+[2015.07.30-05.58.19:246][354]LogSavePackage: Save=4.783352ms
+[2015.07.30-05.58.19:246][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_moveF42B73174A5A0E5FC4878BB83DB4AD59.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_move.uasset'
+[2015.07.30-05.58.19:254][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/saw_dead" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_dead.uasset" SILENT=true
+[2015.07.30-05.58.19:260][354]LogSavePackage: Save=5.040689ms
+[2015.07.30-05.58.19:260][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_deadEAEE3E92454DB90A1603F19C6DDDAA7C.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_dead.uasset'
+[2015.07.30-05.58.19:271][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/saw_move" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_move.uasset" SILENT=true
+[2015.07.30-05.58.19:277][354]LogSavePackage: Save=4.900047ms
+[2015.07.30-05.58.19:277][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_move3F0DD71F48C8B2FC924855B194E0B234.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_move.uasset'
+[2015.07.30-05.58.19:284][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow.uasset" SILENT=true
+[2015.07.30-05.58.19:290][354]LogSavePackage: Save=4.435548ms
+[2015.07.30-05.58.19:290][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow0EBBCD644762AF072F83249036385F5B.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow.uasset'
+[2015.07.30-05.58.19:298][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_badge1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_badge1.uasset" SILENT=true
+[2015.07.30-05.58.19:302][354]LogSavePackage: Save=3.584853ms
+[2015.07.30-05.58.19:302][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_badge19C36925F440E0D9E11E2618F1E9A931A.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_badge1.uasset'
+[2015.07.30-05.58.19:309][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_badge2" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_badge2.uasset" SILENT=true
+[2015.07.30-05.58.19:314][354]LogSavePackage: Save=3.768448ms
+[2015.07.30-05.58.19:314][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_badge2B7A69E4042E8364A1A528FBF3C3BED15.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_badge2.uasset'
+[2015.07.30-05.58.19:321][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_climb1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_climb1.uasset" SILENT=true
+[2015.07.30-05.58.19:326][354]LogSavePackage: Save=3.934178ms
+[2015.07.30-05.58.19:326][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_climb1D568733E4EF11666F710ED8DF390E908.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_climb1.uasset'
+[2015.07.30-05.58.19:332][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_climb2" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_climb2.uasset" SILENT=true
+[2015.07.30-05.58.19:337][354]LogSavePackage: Save=3.897687ms
+[2015.07.30-05.58.19:337][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_climb2ACD248914C0DD810C0B686BB5F57AA9A.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_climb2.uasset'
+[2015.07.30-05.58.19:344][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_duck" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_duck.uasset" SILENT=true
+[2015.07.30-05.58.19:349][354]LogSavePackage: Save=3.945961ms
+[2015.07.30-05.58.19:349][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_duckD55048A74480E5BD6455A791CEED1AE0.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_duck.uasset'
+[2015.07.30-05.58.19:359][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_front" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_front.uasset" SILENT=true
+[2015.07.30-05.58.19:366][354]LogSavePackage: Save=5.133817ms
+[2015.07.30-05.58.19:366][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_front010CC9384A5A9DE7382802810B9370BC.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_front.uasset'
+[2015.07.30-05.58.19:376][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_hit" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_hit.uasset" SILENT=true
+[2015.07.30-05.58.19:382][354]LogSavePackage: Save=5.143700ms
+[2015.07.30-05.58.19:382][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_hitBE82AC64447E2851B6237EA4D472D866.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_hit.uasset'
+[2015.07.30-05.58.19:389][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_hurt" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_hurt.uasset" SILENT=true
+[2015.07.30-05.58.19:394][354]LogSavePackage: Save=3.972950ms
+[2015.07.30-05.58.19:394][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_hurtE8B573B54F83F595BAC021A1EFFFF036.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_hurt.uasset'
+[2015.07.30-05.58.19:403][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_jump" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_jump.uasset" SILENT=true
+[2015.07.30-05.58.19:408][354]LogSavePackage: Save=4.015522ms
+[2015.07.30-05.58.19:408][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_jumpA45B088A4A23F453655796B69397095C.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_jump.uasset'
+[2015.07.30-05.58.19:414][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_stand" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_stand.uasset" SILENT=true
+[2015.07.30-05.58.19:419][354]LogSavePackage: Save=3.887044ms
+[2015.07.30-05.58.19:419][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_standFCFC9270423BD47646134B942B624265.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_stand.uasset'
+[2015.07.30-05.58.19:426][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_swim1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_swim1.uasset" SILENT=true
+[2015.07.30-05.58.19:432][354]LogSavePackage: Save=4.080142ms
+[2015.07.30-05.58.19:432][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_swim118EC0E26498C9304139EABBDE67533CC.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_swim1.uasset'
+[2015.07.30-05.58.19:439][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_swim2" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_swim2.uasset" SILENT=true
+[2015.07.30-05.58.19:444][354]LogSavePackage: Save=4.085083ms
+[2015.07.30-05.58.19:444][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_swim2BFC0D5A14F8F1C3CA95909A328ABC25A.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_swim2.uasset'
+[2015.07.30-05.58.19:453][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_walk1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_walk1.uasset" SILENT=true
+[2015.07.30-05.58.19:458][354]LogSavePackage: Save=3.979412ms
+[2015.07.30-05.58.19:458][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_walk1EC0CB91842B9932BCD1211B7EC70EF93.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_walk1.uasset'
+[2015.07.30-05.58.19:465][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Main/alienYellow_walk2" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_walk2.uasset" SILENT=true
+[2015.07.30-05.58.19:470][354]LogSavePackage: Save=3.968768ms
+[2015.07.30-05.58.19:470][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_walk202254D4742EE554C92697489FD0E5732.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Main/alienYellow_walk2.uasset'
+[2015.07.30-05.58.19:477][354]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.19:895][354]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.20:546][354]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.20:567][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/World/bg_castle_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/bg_castle_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:585][354]LogSavePackage: Save=6.663395ms
+[2015.07.30-05.58.20:585][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/bg_castle_Sprite85D2E1C24E7575F737BCD59D77FBF0BC.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/bg_castle_Sprite.uasset'
+[2015.07.30-05.58.20:618][354]LogSavePackage: Save=8.606917ms
+[2015.07.30-05.58.20:618][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_climb1_Sprite4EF05F4947117D8C5DA8DABAE23D0A46.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_climb1_Sprite.uasset'
+[2015.07.30-05.58.20:652][354]LogSavePackage: Save=10.345557ms
+[2015.07.30-05.58.20:652][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_climb2_SpriteF329CB3B4DBE42AAA06E428865F80166.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_climb2_Sprite.uasset'
+[2015.07.30-05.58.20:672][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_duck_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_duck_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:687][354]LogSavePackage: Save=8.730074ms
+[2015.07.30-05.58.20:687][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_duck_Sprite32828CBB486D5EE42772C09891334A3D.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_duck_Sprite.uasset'
+[2015.07.30-05.58.20:706][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_front_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_front_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:719][354]LogSavePackage: Save=7.854672ms
+[2015.07.30-05.58.20:719][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_front_Sprite628E292C4169208C1E90D6A377791B74.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_front_Sprite.uasset'
+[2015.07.30-05.58.20:734][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_hit_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_hit_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:749][354]LogSavePackage: Save=9.967344ms
+[2015.07.30-05.58.20:749][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_hit_Sprite840824E74454454054CC178E290D7FF8.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_hit_Sprite.uasset'
+[2015.07.30-05.58.20:770][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_jump_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_jump_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:788][354]LogSavePackage: Save=11.456250ms
+[2015.07.30-05.58.20:788][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_jump_Sprite49E98DDD459D1D0FDE09D8AC72118B54.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_jump_Sprite.uasset'
+[2015.07.30-05.58.20:811][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_stand_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_stand_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:831][354]LogSavePackage: Save=12.858871ms
+[2015.07.30-05.58.20:831][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_stand_Sprite013228CB4AA913D89DFBF79C0A6DFE7D.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_stand_Sprite.uasset'
+[2015.07.30-05.58.20:851][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_swim1_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_swim1_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:864][354]LogSavePackage: Save=8.297885ms
+[2015.07.30-05.58.20:864][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_swim1_SpriteC4CA0029476B3A56CC0FC986EEF28011.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_swim1_Sprite.uasset'
+[2015.07.30-05.58.20:881][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_swim2_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_swim2_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:895][354]LogSavePackage: Save=8.266715ms
+[2015.07.30-05.58.20:895][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_swim2_SpriteE41E208940CEF27E57E04E8C18FEC8A5.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_swim2_Sprite.uasset'
+[2015.07.30-05.58.20:911][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_walk1_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_walk1_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:926][354]LogSavePackage: Save=8.322212ms
+[2015.07.30-05.58.20:926][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_walk1_Sprite6CA112344B8842923352698CDA9C0AD1.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_walk1_Sprite.uasset'
+[2015.07.30-05.58.20:943][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Main/alienYellow_walk2_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_walk2_Sprite.uasset" SILENT=true
+[2015.07.30-05.58.20:957][354]LogSavePackage: Save=8.235166ms
+[2015.07.30-05.58.20:957][354]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/alienYellow_walk2_SpriteA1DE3B1B41B65BAC1A441E9F3370E322.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Main/alienYellow_walk2_Sprite.uasset'
+[2015.07.30-05.58.22:891][467]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.23:914][525]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.26:943][706]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.34:145][ 39]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.34:569][ 62]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.35:360][106]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.36:479][173]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.37:624][240]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.37:717][243]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.37:749][244]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.37:799][245]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.38:426][280]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.39:786][361]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.39:839][362]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.44:365][630]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.59:611][541]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.59:645][541]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-05.58.59:751][541]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.59:766][541]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-05.58.59:772][541]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-05.59.02:544][673]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.07.30-05.59.02:544][673]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-05.59.02:544][673]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-05.59.11:353][201]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.17:294][557]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.18:850][650]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-05.59.18:856][650]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-05.59.18:858][650]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-05.59.19:309][674]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-05.59.19:309][674]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-05.59.19:309][674]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-05.59.34:949][609]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.57:878][980]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-05.59.57:880][980]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-05.59.58:850][ 34]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-05.59.58:850][ 34]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-05.59.58:850][ 34]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-05.59.59:736][ 87]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.00.00:484][115]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.00.02:691][246]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.00.02:694][246]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.00.02:695][246]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.00.02:697][246]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.00.02:989][261]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.00.02:989][261]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.00.02:989][261]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.00.11:578][776]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.00.11:580][776]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.00.11:864][792]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.00.11:864][792]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.00.11:864][792]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.00.12:116][807]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.00.12:118][807]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.00.12:417][824]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.00.12:418][824]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.00.12:418][824]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.00.30:500][904]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.00.30:502][904]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.00.30:897][925]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.00.30:897][925]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.00.30:897][925]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.00.33:507][ 81]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.00.38:080][355]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.00.38:083][355]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.00.38:095][355]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.00.38:097][355]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.00.38:499][374]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.00.38:499][374]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.00.38:499][374]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.00.56:110][429]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.19:476][727]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.19:478][727]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.20:450][782]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.01.20:450][782]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.01.20:450][782]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.01.28:956][292]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.29:553][327]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.32:190][483]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.32:192][483]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.32:193][483]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.32:195][483]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.32:506][498]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.01.32:506][498]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.01.32:506][498]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.01.39:431][912]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.39:433][912]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.39:748][930]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.01.39:748][930]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.01.39:748][930]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.01.42:017][ 66]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.43:067][129]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.43:069][129]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.43:393][143]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.01.43:393][143]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.01.43:393][143]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.01.44:363][201]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.45:058][242]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.48:537][449]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.48:540][449]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.48:541][449]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.48:543][449]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.48:876][466]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.01.48:876][466]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.01.48:876][466]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.01.50:328][553]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.51:327][613]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2015.07.30-06.01.51:329][613]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.01.51:635][630]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.01.51:635][630]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.01.51:635][630]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.02.17:719][452]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.26:734][479]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.26:916][479]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Menu' took 0.026
+[2015.07.30-06.02.26:920][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/LevelPrototype] ([1] browsable assets)...
+[2015.07.30-06.02.26:936][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/LevelPrototype.LevelPrototype]
+[2015.07.30-06.02.26:936][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/LevelPrototype]
+[2015.07.30-06.02.26:936][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LevelPrototype" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Materials/LevelPrototype_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.07.30-06.02.26:955][479]LogSavePackage: Save=14.604733ms
+[2015.07.30-06.02.26:955][479]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/LevelPrototype_Auto1722402CA4FF7491ECACEF594C01F71A4.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Materials/LevelPrototype_Auto1.uasset'
+[2015.07.30-06.02.26:956][479]LogFileHelpers: Auto-saving content packages took 0.039
+[2015.07.30-06.05.08:160][ 52]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.05.08:239][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LevelPrototype" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Materials/LevelPrototype.uasset" SILENT=true
+[2015.07.30-06.05.08:253][ 52]LogSavePackage: Save=13.401293ms
+[2015.07.30-06.05.08:253][ 52]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/LevelPrototypeE7AA91964FFE0CF3099903BA176F6B13.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Materials/LevelPrototype.uasset'
+[2015.07.30-06.06.47:286][138]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.06.53:874][259]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BEAA5C0
+[2015.07.30-06.06.53:875][259]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.06.56:456][259]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.06.56:480][259]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.06.56:495][259]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.07.06:500][567]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.07.44:486][508]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.07.30-06.07.44:500][508]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2015.07.30-06.07.45:963][592]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2015.07.30-06.07.46:151][603]LogEditorViewport: Clicking on Actor (double click): PlayerStart (PlayerStart)
+[2015.07.30-06.07.47:670][694]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2015.07.30-06.07.47:681][694]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.07.48:876][764]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.07.48:901][765]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.09.44:500][236]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.09.54:696][845]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.09.57:446][ 10]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.09.57:453][ 10]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.09.57:489][ 10]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.09.57:512][ 10]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.09.57:517][ 10]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.09.59:498][110]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.07.30-06.09.59:498][110]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.09.59:498][110]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.00:636][178]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.01:490][229]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.03:595][355]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.04:732][423]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.04:735][423]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.04:738][423]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.05:147][443]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.05:147][443]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.05:147][443]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.08:402][637]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.24:305][589]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.24:308][589]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.24:614][606]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.24:614][606]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.24:614][606]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.26:935][745]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.27:964][806]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.34:853][217]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.34:856][217]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.34:857][217]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.34:859][217]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.35:135][228]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.35:135][228]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.35:135][228]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.38:008][400]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.38:010][400]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.38:314][418]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.38:314][418]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.38:314][418]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.38:465][427]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.38:467][427]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.38:800][446]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.38:800][446]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.38:800][446]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.39:836][508]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.40:731][561]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.43:489][725]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.43:491][725]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.43:493][725]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.43:495][725]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.43:781][739]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.43:781][739]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.43:781][739]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.46:290][889]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.46:292][889]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.46:639][908]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.46:639][908]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.46:640][908]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.10.47:712][972]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.10.50:382][132]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.50:385][132]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.50:392][132]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.10.50:395][132]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.10.50:734][150]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.10.50:734][150]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.10.50:734][150]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.06:857][114]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.06:859][114]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.07:125][128]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.07:125][128]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.07:125][128]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.10:359][322]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.10:361][322]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.10:650][339]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.10:650][339]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.10:650][339]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.12:259][435]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.11.13:008][479]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.11.15:342][617]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.15:344][617]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.15:345][617]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.15:347][617]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.15:665][633]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.15:665][633]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.15:665][633]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.17:084][718]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.11.18:316][792]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.18:318][792]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.18:600][808]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.18:600][808]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.18:600][808]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.19:068][836]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.11.20:001][892]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.20:003][892]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.20:319][910]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.20:319][910]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.20:319][910]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.30:928][955]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.11.36:775][300]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.36:777][300]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.36:778][300]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.30-06.11.37:256][319]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.37:256][319]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.37:256][319]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.54:859][370]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.54:861][370]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.54:916][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.30-06.11.55:314][386]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.55:314][386]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.55:314][386]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.11.58:208][556]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.11.59:462][631]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.11.59:464][631]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.11.59:489][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.30-06.11.59:809][644]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.11.59:809][644]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.11.59:809][644]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.12.25:315][169]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.28:519][359]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.31:285][521]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.12.31:288][521]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.12.32:357][571]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.12.32:357][571]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.12.32:357][571]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.12.34:304][686]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.35:187][738]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.38:027][906]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.12.38:029][906]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.12.38:030][906]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.12.38:032][906]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.12.38:058][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.30-06.12.38:558][925]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.12.38:558][925]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.12.38:558][925]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.12.40:601][ 47]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.41:448][ 97]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.43:750][233]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.45:405][332]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.12.45:407][332]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.12.45:696][344]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.07.30-06.12.45:696][344]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-06.12.45:696][344]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-06.12.50:223][613]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.12.51:240][674]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.12.51:242][674]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.12.51:573][690]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.07.30-06.12.51:573][690]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.12.51:573][690]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.13.07:802][660]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.13.13:199][983]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.13:201][983]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.13.14:173][ 27]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.07.30-06.13.14:173][ 27]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.13.14:173][ 27]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.13.21:590][468]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.13.28:512][880]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.28:522][880]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.28:528][880]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.13.30:168][943]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.13.30:193][944]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.07.30-06.13.30:193][944]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.13.30:193][944]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.13.31:412][ 15]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.31:421][ 15]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.31:428][ 15]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.13.33:091][ 74]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.07.30-06.13.33:091][ 74]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.13.33:091][ 74]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.13.33:534][100]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.13.35:711][228]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.35:721][228]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.35:729][228]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.13.36:755][265]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.13.37:510][293]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.07.30-06.13.37:510][293]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.13.37:510][293]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.13.38:331][342]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.38:336][342]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.13.38:338][342]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.13.38:666][355]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.07.30-06.13.38:666][355]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.13.38:666][355]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.14.14:632][571]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.14.14:818][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Maps/Menu_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.07.30-06.14.14:893][571]LogSavePackage: Save=67.851456ms
+[2015.07.30-06.14.14:893][571]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Menu_Auto27698D464441D0BFDABCE44BC2C1BC0E5.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Maps/Menu_Auto2.umap'
+[2015.07.30-06.14.14:896][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Menu' took 0.106
+[2015.07.30-06.14.14:896][571]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2015.07.30-06.14.14:900][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/World] ([1] browsable assets)...
+[2015.07.30-06.14.14:913][571]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/World.World]
+[2015.07.30-06.14.14:913][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/World]
+[2015.07.30-06.14.14:913][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/World" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Materials/World_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.07.30-06.14.14:927][571]LogSavePackage: Save=12.343816ms
+[2015.07.30-06.14.14:927][571]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/World_Auto272E0C3FA451B72E7827B7583FE6E031B.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Materials/World_Auto2.uasset'
+[2015.07.30-06.14.14:927][571]LogFileHelpers: Auto-saving content packages took 0.030
+[2015.07.30-06.14.43:363][848]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.14.50:358][264]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.14.50:361][264]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.14.50:382][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.30-06.14.51:354][307]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.07.30-06.14.51:354][307]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.14.51:354][307]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.14.56:344][604]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.14.58:686][744]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.15.00:158][832]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.15.00:159][832]LogMaterial:Warning: Failed to compile Material /Engine/Transient.World for platform PCD3D_SM5, Default Material will be used in game.
+[2015.07.30-06.15.00:159][832]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Grayscale, should be Color for /Game/Textures/World/bg_castle.bg_castle
+[2015.07.30-06.15.00:159][832]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.15.00:182][832]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.30-06.15.00:184][832]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Grayscale, should be Color for /Game/Textures/World/bg_castle.bg_castle
+[2015.07.30-06.15.01:514][910]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.15.02:519][970]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.15.02:521][970]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.15.02:546][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.07.30-06.15.02:823][981]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.07.30-06.15.02:823][981]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.15.02:823][981]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.17.03:856][543]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.17.13:618][124]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.17.29:552][ 72]LogMaterialEditor: Saving and Compiling material World
+[2015.07.30-06.17.29:935][ 72]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.17.29:941][ 72]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.17.29:945][ 72]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.17.29:965][ 72]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.17.29:972][ 72]LogMaterial: Missing cached shader map for material World, compiling. 
+[2015.07.30-06.17.29:975][ 72]LogMaterial: 0.000287 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-06.17.29:993][ 72]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.17.31:027][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/World" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Materials/World.uasset" SILENT=true
+[2015.07.30-06.17.31:039][ 72]LogSavePackage: Save=11.141896ms
+[2015.07.30-06.17.31:039][ 72]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/WorldF3419B4D45930C03E70C1A8EFD8E7551.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Materials/World.uasset'
+[2015.07.30-06.17.31:059][ 73]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2015.07.30-06.17.31:059][ 73]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2015.07.30-06.17.31:059][ 73]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.30-06.18.00:141][ 31]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.18.18:873][ 32]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.18.24:861][389]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.06:743][  1]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.07:652][ 51]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.09:055][134]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.10:253][205]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.13:221][375]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.46:938][515]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.46:988][515]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\World\boxEmpty.png)
+[2015.07.30-06.21.46:991][515]LogTexture:Display: Building textures: boxEmpty (BGRA8)
+[2015.07.30-06.21.48:971][521]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.49:400][542]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.49:935][574]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.54:444][842]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.56:280][950]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.58:484][ 80]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.58:553][ 80]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.58:616][ 80]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.58:657][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/World/boxEmpty_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/boxEmpty_Sprite.uasset" SILENT=true
+[2015.07.30-06.21.58:666][ 80]LogSavePackage: Save=7.243829ms
+[2015.07.30-06.21.58:666][ 80]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/boxEmpty_Sprite2EBBDF594C7736E75066B5B58EF8784F.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/boxEmpty_Sprite.uasset'
+[2015.07.30-06.21.58:677][ 80]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.21.58:731][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002473C540
+[2015.07.30-06.22.06:604][379]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.22.45:832][726]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.22.46:759][778]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.22.50:437][998]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.22.50:504][998]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.22.50:606][998]LogRenderer: Reallocating scene render targets to support 1216x928 (Frame:20649).
+[2015.07.30-06.23.03:571][768]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.23.03:628][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/World/boxEmpty_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/boxEmpty_Sprite.uasset" SILENT=true
+[2015.07.30-06.23.03:641][768]LogSavePackage: Save=7.324793ms
+[2015.07.30-06.23.03:641][768]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/boxEmpty_Sprite8E58A859412A6D62A55D46A946447659.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/boxEmpty_Sprite.uasset'
+[2015.07.30-06.23.08:556][ 60]LogEditorViewport: Clicking Background
+[2015.07.30-06.23.09:473][115]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (boxEmpty_Sprite)
+[2015.07.30-06.23.10:501][175]Cmd: EDIT COPY
+[2015.07.30-06.23.10:771][191]Cmd: EDIT PASTE
+[2015.07.30-06.23.15:243][458]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (boxEmpty_Sprite)
+[2015.07.30-06.23.20:829][791]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (boxEmpty_Sprite2)
+[2015.07.30-06.23.21:865][851]Cmd: EDIT COPY
+[2015.07.30-06.23.22:099][865]Cmd: EDIT PASTE
+[2015.07.30-06.23.26:713][140]Cmd: EDIT COPY
+[2015.07.30-06.23.27:017][158]Cmd: EDIT PASTE
+[2015.07.30-06.23.33:561][548]Cmd: EDIT COPY
+[2015.07.30-06.23.33:767][560]Cmd: EDIT PASTE
+[2015.07.30-06.23.39:392][896]Cmd: EDIT PASTE
+[2015.07.30-06.23.43:900][165]Cmd: EDIT PASTE
+[2015.07.30-06.23.48:934][465]Cmd: EDIT PASTE
+[2015.07.30-06.23.57:323][967]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (boxEmpty_Sprite14)
+[2015.07.30-06.23.58:648][ 45]Cmd: EDIT COPY
+[2015.07.30-06.23.58:882][ 59]Cmd: EDIT PASTE
+[2015.07.30-06.24.02:480][273]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.24.21:192][391]LogUnrealMath: Expression Error : No value recognized
+[2015.07.30-06.24.21:192][391]LogUnrealMath: Expression Error : Error in expression
+[2015.07.30-06.24.21:275][396]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.24.34:414][182]Cmd: TRANSACTION UNDO
+[2015.07.30-06.24.34:414][182]LogEditorTransaction: Undo Scale Actors
+[2015.07.30-06.24.34:418][182]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.24.35:179][217]Cmd: TRANSACTION UNDO
+[2015.07.30-06.24.35:179][217]LogEditorTransaction: Undo Scale Actors
+[2015.07.30-06.25.08:252][810]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.17:253][837]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.17:432][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011438220
+[2015.07.30-06.25.17:443][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Maps/Menu_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.07.30-06.25.17:511][837]LogSavePackage: Save=61.951710ms
+[2015.07.30-06.25.17:511][837]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Menu_Auto38A81C5FD4F29A5B6B7F2FBBA940EE64B.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Maps/Menu_Auto3.umap'
+[2015.07.30-06.25.17:513][837]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Menu' took 0.100
+[2015.07.30-06.25.17:513][837]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.100
+[2015.07.30-06.25.17:517][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/World/boxEmpty] ([1] browsable assets)...
+[2015.07.30-06.25.17:519][837]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/World/boxEmpty.boxEmpty]
+[2015.07.30-06.25.17:519][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/World/boxEmpty]
+[2015.07.30-06.25.17:519][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/boxEmpty" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Textures/World/boxEmpty_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.07.30-06.25.17:524][837]LogSavePackage: Save=3.761226ms
+[2015.07.30-06.25.17:524][837]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/boxEmpty_Auto377B1C4594C4F78A6FF787CAD8B0E3582.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Textures/World/boxEmpty_Auto3.uasset'
+[2015.07.30-06.25.17:527][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/boxEmpty_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Textures/World/boxEmpty_Sprite_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.07.30-06.25.17:530][837]LogSavePackage: Save=2.435389ms
+[2015.07.30-06.25.17:530][837]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/boxEmpty_Sprite_Auto3F9636D244F96E431228334B5EAF4D314.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Autosaves/Game/Textures/World/boxEmpty_Sprite_Auto3.uasset'
+[2015.07.30-06.25.17:531][837]LogFileHelpers: Auto-saving content packages took 0.016
+[2015.07.30-06.25.32:936][884]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.33:963][943]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.38:750][226]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.40:065][302]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.55:946][399]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.55:963][399]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\World\castleWall.png)
+[2015.07.30-06.25.55:966][399]LogTexture:Display: Building textures: castleWall (BGRA8)
+[2015.07.30-06.25.57:653][404]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.57:767][410]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.25.58:026][425]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.00:665][581]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.00:700][582]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.00:726][583]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.00:753][584]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.03:964][774]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.06:213][774]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.06:239][774]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.12:565][148]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.13:276][189]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.14:104][238]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.15:556][324]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.22:773][640]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.28:308][856]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.28:331][856]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\World\castleWall.png)
+[2015.07.30-06.26.28:332][856]LogTexture:Display: Building textures: castleWall (BGRA8)
+[2015.07.30-06.26.29:283][912]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.32:062][ 76]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.35:580][286]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.39:630][527]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.42:144][677]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.43:222][741]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.44:595][821]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.44:631][821]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.44:646][821]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.44:670][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/World/castleWall_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/castleWall_Sprite.uasset" SILENT=true
+[2015.07.30-06.26.44:679][821]LogSavePackage: Save=7.003217ms
+[2015.07.30-06.26.44:679][821]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/castleWall_Sprite95CBD12C4D3985723EC094993A7DB304.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/World/castleWall_Sprite.uasset'
+[2015.07.30-06.26.44:687][821]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.26.51:227][209]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.27.03:320][930]LogUnrealMath: Expression Error : No value recognized
+[2015.07.30-06.27.03:320][930]LogUnrealMath: Expression Error : Error in expression
+[2015.07.30-06.27.03:403][935]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (castleWall_Sprite)
+[2015.07.30-06.27.11:686][424]Cmd: EDIT COPY
+[2015.07.30-06.27.11:953][440]Cmd: EDIT PASTE
+[2015.07.30-06.27.17:706][782]Cmd: EDIT PASTE
+[2015.07.30-06.27.21:794][ 25]Cmd: EDIT PASTE
+[2015.07.30-06.27.27:416][360]Cmd: EDIT PASTE
+[2015.07.30-06.27.31:317][592]Cmd: EDIT PASTE
+[2015.07.30-06.27.34:774][797]Cmd: EDIT PASTE
+[2015.07.30-06.27.38:549][ 19]Cmd: EDIT PASTE
+[2015.07.30-06.28.11:748][  0]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.11:748][  0]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.11:758][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.28.12:066][ 17]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.12:066][ 17]LogEditorTransaction: Undo Paste
+[2015.07.30-06.28.12:361][ 33]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.12:361][ 33]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.12:616][ 48]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.12:616][ 48]LogEditorTransaction: Undo Paste
+[2015.07.30-06.28.12:805][ 58]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.12:805][ 58]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.12:994][ 69]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.12:994][ 69]LogEditorTransaction: Undo Paste
+[2015.07.30-06.28.13:169][ 78]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.13:169][ 78]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.13:337][ 88]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.13:337][ 88]LogEditorTransaction: Undo Paste
+[2015.07.30-06.28.13:542][ 99]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.13:542][ 99]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.13:763][112]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.13:763][112]LogEditorTransaction: Undo Paste
+[2015.07.30-06.28.14:119][132]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.14:119][132]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.14:454][152]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.14:454][152]LogEditorTransaction: Undo Paste
+[2015.07.30-06.28.14:960][181]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.14:960][181]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.15:714][226]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.15:714][226]LogEditorTransaction: Undo Paste
+[2015.07.30-06.28.16:385][265]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.16:385][265]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.28.17:003][302]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.17:003][302]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.30-06.28.17:396][325]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.17:396][325]LogEditorTransaction: Undo Set actor location
+[2015.07.30-06.28.17:798][349]Cmd: TRANSACTION UNDO
+[2015.07.30-06.28.17:798][349]LogEditorTransaction: Undo Create Actors
+[2015.07.30-06.28.43:421][535]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.07.30-06.28.46:040][691]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.07.30-06.28.49:572][902]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.07.30-06.28.50:776][974]LogEditorViewport: Clicking Background
+[2015.07.30-06.28.55:595][259]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.28.55:670][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.28.55:761][259]LogSavePackage: Save=61.473526ms
+[2015.07.30-06.28.55:761][259]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Menu501A05C743373FDE860D4EB2000DD898.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap'
+[2015.07.30-06.28.55:787][259]LogFileHelpers: Saving map 'Menu' took 0.174
+[2015.07.30-06.28.55:793][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/boxEmpty" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/boxEmpty.uasset" SILENT=true
+[2015.07.30-06.28.55:797][259]LogSavePackage: Save=3.563567ms
+[2015.07.30-06.28.55:798][259]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/boxEmpty80F40450426C30D2585F259FBE803FA4.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/boxEmpty.uasset'
+[2015.07.30-06.28.55:805][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/boxEmpty_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/boxEmpty_Sprite.uasset" SILENT=true
+[2015.07.30-06.28.55:811][259]LogSavePackage: Save=2.573751ms
+[2015.07.30-06.28.55:811][259]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/boxEmpty_Sprite326BF4DB42400AB134D9058BD420D10B.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/boxEmpty_Sprite.uasset'
+[2015.07.30-06.28.55:820][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/castleWall" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/castleWall.uasset" SILENT=true
+[2015.07.30-06.28.55:825][259]LogSavePackage: Save=3.981312ms
+[2015.07.30-06.28.55:825][259]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/castleWall23B51D794CA76D6AEB435CA909565B72.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/castleWall.uasset'
+[2015.07.30-06.28.55:830][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/World/castleWall_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/castleWall_Sprite.uasset" SILENT=true
+[2015.07.30-06.28.55:834][259]LogSavePackage: Save=2.522815ms
+[2015.07.30-06.28.55:834][259]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/castleWall_Sprite4A9AA2D847782284F80983860D14DE82.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/World/castleWall_Sprite.uasset'
+[2015.07.30-06.32.01:530][210]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.02:081][242]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.02:699][279]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.10:253][732]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.10:647][754]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.12:028][836]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.13:271][910]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.13:861][945]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.15:422][ 38]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.32.15:989][ 71]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.33.43:138][511]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.33.43:165][511]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\Characters\Enemy\sawHalf_moveinv.png)
+[2015.07.30-06.33.43:172][511]LogTexture:Display: Building textures: sawHalf_moveinv (AutoDXT)
+[2015.07.30-06.33.43:208][511]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\Characters\Enemy\sawHalfinv.png)
+[2015.07.30-06.33.43:210][511]LogTexture:Display: Building textures: sawHalfinv (AutoDXT)
+[2015.07.30-06.33.43:229][511]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\Characters\Enemy\sawHalf_deadinv.png)
+[2015.07.30-06.33.43:232][511]LogTexture:Display: Building textures: sawHalf_deadinv (AutoDXT)
+[2015.07.30-06.33.47:170][523]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.02:138][417]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.04:126][417]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.04:151][417]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.42:881][684]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.42:903][684]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\Characters\Enemy\inv_sawHalf_dead.png)
+[2015.07.30-06.34.42:906][684]LogTexture:Display: Building textures: inv_sawHalf_dead (AutoDXT)
+[2015.07.30-06.34.42:936][684]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\Characters\Enemy\inv_sawHalf_move.png)
+[2015.07.30-06.34.42:938][684]LogTexture:Display: Building textures: inv_sawHalf_move (AutoDXT)
+[2015.07.30-06.34.42:954][684]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:\Workspace\Code\BitBucket\SaveMe\Content\Textures\Characters\Enemy\inv_sawHalf.png)
+[2015.07.30-06.34.42:957][684]LogTexture:Display: Building textures: inv_sawHalf (AutoDXT)
+[2015.07.30-06.34.46:868][845]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.46:887][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/inv_sawHalf" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf.uasset" SILENT=true
+[2015.07.30-06.34.46:896][845]LogSavePackage: Save=8.058793ms
+[2015.07.30-06.34.46:896][845]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf99A02DC24D678140353BC998AA0B3BF1.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf.uasset'
+[2015.07.30-06.34.46:911][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/inv_sawHalf_move" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_move.uasset" SILENT=true
+[2015.07.30-06.34.46:917][845]LogSavePackage: Save=4.885983ms
+[2015.07.30-06.34.46:917][845]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_moveA7DE0D5A4C2BFA507E1CD297515CA70E.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_move.uasset'
+[2015.07.30-06.34.46:927][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/inv_sawHalf_dead" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_dead.uasset" SILENT=true
+[2015.07.30-06.34.46:934][845]LogSavePackage: Save=6.011120ms
+[2015.07.30-06.34.46:934][845]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_dead1729D96C41C3F73EADD5CBB8F031164D.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_dead.uasset'
+[2015.07.30-06.34.48:488][938]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.49:481][997]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.51:966][143]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.54:587][300]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.58:404][528]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.58:431][528]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.58:490][528]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.34.58:519][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/inv_sawHalf_dead_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/inv_sawHalf_dead_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:528][528]LogSavePackage: Save=7.547920ms
+[2015.07.30-06.34.58:528][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_dead_Sprite0BA21831490403249DED14BEB82102F5.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/inv_sawHalf_dead_Sprite.uasset'
+[2015.07.30-06.34.58:545][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/inv_sawHalf_move_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/inv_sawHalf_move_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:556][528]LogSavePackage: Save=7.485581ms
+[2015.07.30-06.34.58:556][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_move_SpriteFCF135B24E0D48957AA35BB09E2909E4.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/inv_sawHalf_move_Sprite.uasset'
+[2015.07.30-06.34.58:572][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/inv_sawHalf_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/inv_sawHalf_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:582][528]LogSavePackage: Save=7.876338ms
+[2015.07.30-06.34.58:582][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_SpriteEC5611714B26200D632D56A9AD93957C.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/inv_sawHalf_Sprite.uasset'
+[2015.07.30-06.34.58:599][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/saw_dead_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/saw_dead_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:609][528]LogSavePackage: Save=8.207417ms
+[2015.07.30-06.34.58:609][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_dead_Sprite7BED7600401ACF505F74EEAB5D4445A7.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/saw_dead_Sprite.uasset'
+[2015.07.30-06.34.58:625][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/saw_move_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/saw_move_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:634][528]LogSavePackage: Save=7.988472ms
+[2015.07.30-06.34.58:634][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_move_Sprite91E3A756461D30EBA9069FB028228145.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/saw_move_Sprite.uasset'
+[2015.07.30-06.34.58:650][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/saw_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/saw_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:660][528]LogSavePackage: Save=8.380750ms
+[2015.07.30-06.34.58:660][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_Sprite6BAC54A142608FB58055518B71DA2B9D.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/saw_Sprite.uasset'
+[2015.07.30-06.34.58:677][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/sawHalf_dead_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/sawHalf_dead_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:689][528]LogSavePackage: Save=7.969846ms
+[2015.07.30-06.34.58:689][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_dead_Sprite31D4D1EB4A7B8364310A9A9D20C8CAF8.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/sawHalf_dead_Sprite.uasset'
+[2015.07.30-06.34.58:706][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/sawHalf_move_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/sawHalf_move_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:714][528]LogSavePackage: Save=7.681340ms
+[2015.07.30-06.34.58:715][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_move_SpriteE98A1775479C915961B577BCC8759880.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/sawHalf_move_Sprite.uasset'
+[2015.07.30-06.34.58:731][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Characters/Enemy/sawHalf_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/sawHalf_Sprite.uasset" SILENT=true
+[2015.07.30-06.34.58:740][528]LogSavePackage: Save=7.759644ms
+[2015.07.30-06.34.58:740][528]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_Sprite5B1434FB49F417C3C097999B6EAB8619.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Sprites/Characters/Enemy/sawHalf_Sprite.uasset'
+[2015.07.30-06.34.58:750][528]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.35.03:996][828]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.35.04:039][828]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.35.51:944][690]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.35.52:793][740]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.00:216][184]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.01:183][241]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.02:141][298]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.02:165][299]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.02:208][301]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.02:235][302]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.02:260][303]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.03:268][363]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.17:151][195]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.17:195][195]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.17:263][195]LogRenderer: Reallocating scene render targets to support 1336x928 (Frame:25575).
+[2015.07.30-06.36.23:514][533]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.27:249][756]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.36.33:704][140]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.37.11:170][383]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.37.11:198][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbook/Characters/Enemy/EnemyTop" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Flipbook/Characters/Enemy/EnemyTop.uasset" SILENT=true
+[2015.07.30-06.37.11:206][383]LogSavePackage: Save=7.076579ms
+[2015.07.30-06.37.11:206][383]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/EnemyTop8E618778407802EA221B67854A431FC6.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Flipbook/Characters/Enemy/EnemyTop.uasset'
+[2015.07.30-06.37.13:754][533]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.37.14:038][549]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.37.14:525][578]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.37.15:448][633]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.37.15:684][647]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.03:287][697]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.03:331][697]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.12:036][214]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.15:740][431]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.19:774][673]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.25:043][989]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.25:643][ 24]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.30:088][290]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.38.59:830][ 73]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.00:157][ 92]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.02:067][204]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.02:267][215]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.02:295][216]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.02:320][217]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.06:537][468]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.16:772][ 82]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.18:751][196]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.18:779][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbook/Characters/Enemy/enemyFall" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Flipbook/Characters/Enemy/enemyFall.uasset" SILENT=true
+[2015.07.30-06.39.18:788][196]LogSavePackage: Save=7.833385ms
+[2015.07.30-06.39.18:788][196]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/enemyFallA2C38BDE4429A4261E99148AB5627705.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Flipbook/Characters/Enemy/enemyFall.uasset'
+[2015.07.30-06.39.38:061][342]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.39.52:457][200]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.40.04:862][944]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.40.05:478][980]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.40.22:968][ 28]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.40.24:530][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C44C680
+[2015.07.30-06.40.24:530][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB140E0
+[2015.07.30-06.40.24:530][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025576A20
+[2015.07.30-06.40.24:545][120]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.40.24:583][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/inv_sawHalf_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_Sprite.uasset" SILENT=true
+[2015.07.30-06.40.24:587][120]LogSavePackage: Save=2.421705ms
+[2015.07.30-06.40.24:587][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_SpriteFDDAC2714786B2001CC16DB65FF19CC4.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_Sprite.uasset'
+[2015.07.30-06.40.24:598][120]LogSavePackage: Save=2.379132ms
+[2015.07.30-06.40.24:598][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_dead_SpriteFA9AEA6A48A624A04F38BBAC5648C9E6.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_dead_Sprite.uasset'
+[2015.07.30-06.40.24:610][120]LogSavePackage: Save=2.403080ms
+[2015.07.30-06.40.24:610][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/inv_sawHalf_move_Sprite0AF80C304876EEA8841FA0969C2B21E2.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/inv_sawHalf_move_Sprite.uasset'
+[2015.07.30-06.40.24:616][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/saw_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_Sprite.uasset" SILENT=true
+[2015.07.30-06.40.24:620][120]LogSavePackage: Save=2.337700ms
+[2015.07.30-06.40.24:620][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_Sprite2B2A3CBC4E71FD7E5055A7A4A036984B.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_Sprite.uasset'
+[2015.07.30-06.40.24:626][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/saw_dead_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_dead_Sprite.uasset" SILENT=true
+[2015.07.30-06.40.24:630][120]LogSavePackage: Save=2.404980ms
+[2015.07.30-06.40.24:630][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_dead_Sprite9A10C36D457F661D0B7C91984D2630F3.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_dead_Sprite.uasset'
+[2015.07.30-06.40.24:635][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/saw_move_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_move_Sprite.uasset" SILENT=true
+[2015.07.30-06.40.24:639][120]LogSavePackage: Save=2.376472ms
+[2015.07.30-06.40.24:639][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/saw_move_Sprite88317B8E40120D8421F2C1917A9B22BC.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/saw_move_Sprite.uasset'
+[2015.07.30-06.40.24:644][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/sawHalf_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_Sprite.uasset" SILENT=true
+[2015.07.30-06.40.24:648][120]LogSavePackage: Save=2.330858ms
+[2015.07.30-06.40.24:648][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_Sprite26AE728C4EC09FEAFD83AAA9E331FF35.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_Sprite.uasset'
+[2015.07.30-06.40.24:654][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/sawHalf_dead_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_dead_Sprite.uasset" SILENT=true
+[2015.07.30-06.40.24:658][120]LogSavePackage: Save=2.960326ms
+[2015.07.30-06.40.24:658][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_dead_Sprite6EE05775483CDFD373052F81107FC2CE.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_dead_Sprite.uasset'
+[2015.07.30-06.40.24:664][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Characters/Enemy/sawHalf_move_Sprite" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_move_Sprite.uasset" SILENT=true
+[2015.07.30-06.40.24:668][120]LogSavePackage: Save=3.038630ms
+[2015.07.30-06.40.24:668][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/sawHalf_move_Sprite9E58A2AE49899B0C613FC29B2C6D485B.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Textures/Characters/Enemy/sawHalf_move_Sprite.uasset'
+[2015.07.30-06.40.24:685][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbook/Characters/Enemy/EnemyBottom" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Flipbook/Characters/Enemy/EnemyBottom.uasset" SILENT=true
+[2015.07.30-06.40.24:694][120]LogSavePackage: Save=7.044269ms
+[2015.07.30-06.40.24:694][120]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/EnemyBottomFB79398845F8CA8ED17DA4A55267C725.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Flipbook/Characters/Enemy/EnemyBottom.uasset'
+[2015.07.30-06.40.52:779][801]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.04:907][522]Cmd: DELETE
+[2015.07.30-06.41.04:907][522]Cmd: ACTOR DELETE
+[2015.07.30-06.41.04:911][522]LogEditorActor: Deleted Actor: PaperFlipbookActor
+[2015.07.30-06.41.04:950][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB16DE0
+[2015.07.30-06.41.04:965][522]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2015.07.30-06.41.08:646][742]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.30-06.41.08:649][742]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2015.07.30-06.41.08:718][742]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2015.07.30-06.41.08:750][742]PIE: New page: PIE session: Menu (Jul 30, 2015, 10:41:08 AM)
+[2015.07.30-06.41.08:751][742]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2015.07.30-06.41.08:753][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002763s)
+[2015.07.30-06.41.08:754][742]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.41.08:755][742]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2015.07.30-06.41.08:755][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.004445s)
+[2015.07.30-06.41.08:784][742]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-06.41.08:790][742]LogInit: FAudioDevice initialized.
+[2015.07.30-06.41.08:838][742]LogWorld: Game class is 'GameMode'
+[2015.07.30-06.41.08:850][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2015.07.30-08.41.08
+[2015.07.30-06.41.08:850][742]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.41.08:851][742]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.41.08:851][742]LogWorld: Bringing up level for play took: 0.003264
+[2015.07.30-06.41.08:868][742]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.834
+[2015.07.30-06.41.13:683][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E35C680
+[2015.07.30-06.41.27:325][834]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.27:408][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.41.27:508][834]LogSavePackage: Save=66.046677ms
+[2015.07.30-06.41.27:508][834]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MenuBECE1DC34FA5982380F5BD9721D69035.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap'
+[2015.07.30-06.41.27:533][834]LogFileHelpers: Saving map 'Menu' took 0.185
+[2015.07.30-06.41.28:236][876]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.29:049][924]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.36:101][342]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.36:120][342]LogAIModule: Creating AISystem for world Level1
+[2015.07.30-06.41.36:171][342]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.41:856][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.41.41:957][342]LogSavePackage: Save=71.950226ms
+[2015.07.30-06.41.41:957][342]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level_1ACF2059F418CDAF91032599F65104724.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level_1.umap'
+[2015.07.30-06.41.41:958][342]LogFileHelpers: Saving map 'Level_1' took 0.166
+[2015.07.30-06.41.41:959][342]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.41.41:959][342]LightingResults: New page: Lighting Build
+[2015.07.30-06.41.41:978][342]LoadErrors: New page: Loading map: Level1.umap
+[2015.07.30-06.41.41:978][342]MapCheck: New page: Map Check
+[2015.07.30-06.41.41:978][342]LightingResults: New page: Lighting Build
+[2015.07.30-06.41.41:996][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F9C71A0
+[2015.07.30-06.41.42:093][342]LogAIModule: Creating AISystem for world Level1
+[2015.07.30-06.41.42:095][342]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.41.42:120][342]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.41.42:178][342]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.093ms to complete.
+[2015.07.30-06.41.42:178][342]LogFileHelpers: Loading map 'Level1' took 0.221
+[2015.07.30-06.41.45:246][525]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.45:340][525]LogAIModule: Creating AISystem for world Level_1
+[2015.07.30-06.41.45:384][525]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.41.45:384][525]LightingResults: New page: Lighting Build
+[2015.07.30-06.41.45:402][525]LoadErrors: New page: Loading map: Level_1.umap
+[2015.07.30-06.41.45:403][525]MapCheck: New page: Map Check
+[2015.07.30-06.41.45:403][525]LightingResults: New page: Lighting Build
+[2015.07.30-06.41.45:420][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB16E80
+[2015.07.30-06.41.45:552][525]LogAIModule: Creating AISystem for world Level_1
+[2015.07.30-06.41.45:554][525]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.41.45:579][525]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.41.45:638][525]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.449ms to complete.
+[2015.07.30-06.41.45:638][525]LogFileHelpers: Loading map 'Level_1' took 0.255
+[2015.07.30-06.41.46:375][569]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.47:941][662]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.47:962][662]LogAIModule: Creating AISystem for world Level1
+[2015.07.30-06.41.47:977][662]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.48:518][694]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.52:355][924]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.52:375][924]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.52:407][924]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.52:481][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.41.52:538][924]LogSavePackage: Save=8.894663ms
+[2015.07.30-06.41.52:538][924]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level97304AF645DEB09172D8D59CF10A4991.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level.umap'
+[2015.07.30-06.41.52:540][924]LogFileHelpers: Saving map 'Level' took 0.123
+[2015.07.30-06.41.52:549][924]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.52:582][924]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.53:685][984]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.54:067][  5]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.56:545][154]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.56:577][154]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.56:673][154]LogMetaData: Removing '/Game/Maps/Level1.Level1_C' ref from Metadata '/Game/Maps/Level_1.PackageMetaData'
+[2015.07.30-06.41.56:673][154]LogMetaData: Removing '/Game/Maps/Level1.SKEL_Level1_C' ref from Metadata '/Game/Maps/Level_1.PackageMetaData'
+[2015.07.30-06.41.56:682][154]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.56:760][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.41.56:849][154]LogSavePackage: Save=60.260963ms
+[2015.07.30-06.41.56:849][154]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level14D3BBF7E4CCB6CD2C2F138A1178C81CD.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap'
+[2015.07.30-06.41.56:873][154]LogFileHelpers: Saving map 'Level1' took 0.171
+[2015.07.30-06.41.56:881][154]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.56:913][154]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.41.58:709][253]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.00:783][253]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.00:814][253]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.00:828][253]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.02:367][340]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.03:858][428]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.07:802][646]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.30:899][ 27]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.42.31:874][ 83]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.07.30-06.42.35:945][325]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.07.30-06.42.39:812][557]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.07.30-06.42.42:013][685]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.42:080][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.42.42:174][685]LogSavePackage: Save=61.465923ms
+[2015.07.30-06.42.42:174][685]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level1A1DF9D80451031CA73D7B9826B749A13.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap'
+[2015.07.30-06.42.42:198][685]LogFileHelpers: Saving map 'Level1' took 0.177
+[2015.07.30-06.42.43:080][738]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.42.44:274][805]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.42.44:819][837]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.07.30-06.42.45:317][866]Cmd: TRANSACTION UNDO
+[2015.07.30-06.42.45:317][866]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.30-06.42.45:336][866]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.45:827][895]Cmd: TRANSACTION UNDO
+[2015.07.30-06.42.45:827][895]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.30-06.42.46:902][959]Cmd: TRANSACTION UNDO
+[2015.07.30-06.42.46:902][959]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.30-06.42.50:801][192]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.07.30-06.42.52:503][293]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.07.30-06.42.53:700][362]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.42.53:775][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.42.53:863][362]LogSavePackage: Save=59.405708ms
+[2015.07.30-06.42.53:863][362]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Level138ECC0AD4B52CBF2C6A0EBBA50F7274F.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap'
+[2015.07.30-06.42.53:887][362]LogFileHelpers: Saving map 'Level1' took 0.173
+[2015.07.30-06.43.05:067][ 29]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.43.05:172][ 29]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.43.09:911][306]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.43.09:938][306]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.45.22:776][859]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.45.22:866][859]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.45.22:890][859]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C44C360
+[2015.07.30-06.45.22:916][859]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023DE67A0
+[2015.07.30-06.45.22:916][859]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.45.22:916][859]LightingResults: New page: Lighting Build
+[2015.07.30-06.45.22:934][859]LoadErrors: New page: Loading map: Menu.umap
+[2015.07.30-06.45.22:935][859]MapCheck: New page: Map Check
+[2015.07.30-06.45.22:935][859]LightingResults: New page: Lighting Build
+[2015.07.30-06.45.22:954][859]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000ED03CE0
+[2015.07.30-06.45.23:091][859]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.45.23:094][859]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.45.23:119][859]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.45.23:176][859]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.948ms to complete.
+[2015.07.30-06.45.23:176][859]LogFileHelpers: Loading map 'Menu' took 0.261
+[2015.07.30-06.45.25:465][996]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.45.32:460][414]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.24:752][775]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.25:072][793]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.25:729][831]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.25:752][832]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.25:802][834]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.25:829][835]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.26:457][871]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.30:148][ 92]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.30:207][ 94]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.58:070][680]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.59:045][737]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.46.59:601][769]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.47.00:720][834]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.47.03:814][ 18]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.47.03:842][ 18]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.47.07:528][231]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.47.08:347][279]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.47.09:516][346]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.47.20:320][981]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.07.30-06.48.51:234][418]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.48.58:793][861]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.07.30-06.49.16:947][941]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.30-06.49.16:947][941]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2015.07.30-06.49.17:028][941]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2015.07.30-06.49.17:029][941]PIE: New page: PIE session: Menu (Jul 30, 2015, 10:49:17 AM)
+[2015.07.30-06.49.17:029][941]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2015.07.30-06.49.17:032][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002898s)
+[2015.07.30-06.49.17:033][941]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.49.17:034][941]LogPlayLevel: PIE: World Init took: (0.001646s)
+[2015.07.30-06.49.17:034][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.004720s)
+[2015.07.30-06.49.17:084][941]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-06.49.17:089][941]LogInit: FAudioDevice initialized.
+[2015.07.30-06.49.17:135][941]LogWorld: Game class is 'GameMode'
+[2015.07.30-06.49.17:143][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2015.07.30-08.49.17
+[2015.07.30-06.49.17:143][941]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.49.17:144][941]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.49.17:144][941]LogWorld: Bringing up level for play took: 0.005304
+[2015.07.30-06.49.17:147][941]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 1.082
+[2015.07.30-06.49.19:093][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C44D8A0
+[2015.07.30-06.49.44:412][551]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.50.29:981][261]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.50.30:058][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.50.30:151][261]LogSavePackage: Save=61.305138ms
+[2015.07.30-06.50.30:151][261]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Menu47D9398241123C712F97B3805075AFBC.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap'
+[2015.07.30-06.50.30:175][261]LogFileHelpers: Saving map 'Menu' took 0.176
+[2015.07.30-06.50.39:097][794]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.50.39:140][794]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.50.39:140][794]LightingResults: New page: Lighting Build
+[2015.07.30-06.50.39:157][794]LoadErrors: New page: Loading map: Menu.umap
+[2015.07.30-06.50.39:179][794]MapCheck: New page: Map Check
+[2015.07.30-06.50.39:179][794]LightingResults: New page: Lighting Build
+[2015.07.30-06.50.39:198][794]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014CFF6A0
+[2015.07.30-06.50.39:277][794]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.50.39:279][794]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.50.39:308][794]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.50.39:364][794]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.666ms to complete.
+[2015.07.30-06.50.39:365][794]LogFileHelpers: Loading map 'Menu' took 0.227
+[2015.07.30-06.50.40:506][862]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.50.40:602][862]LogAIModule: Creating AISystem for world Level1
+[2015.07.30-06.50.40:657][862]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.50.40:657][862]LightingResults: New page: Lighting Build
+[2015.07.30-06.50.40:675][862]LoadErrors: New page: Loading map: Level1.umap
+[2015.07.30-06.50.40:676][862]MapCheck: New page: Map Check
+[2015.07.30-06.50.40:676][862]LightingResults: New page: Lighting Build
+[2015.07.30-06.50.40:703][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A6F98A0
+[2015.07.30-06.50.40:826][862]LogAIModule: Creating AISystem for world Level1
+[2015.07.30-06.50.40:829][862]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.50.40:853][862]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.50.40:910][862]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.957ms to complete.
+[2015.07.30-06.50.40:910][862]LogFileHelpers: Loading map 'Level1' took 0.254
+[2015.07.30-06.50.41:768][913]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.50.41:877][913]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.50.41:931][913]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.50.41:931][913]LightingResults: New page: Lighting Build
+[2015.07.30-06.50.41:948][913]LoadErrors: New page: Loading map: Menu.umap
+[2015.07.30-06.50.41:949][913]MapCheck: New page: Map Check
+[2015.07.30-06.50.41:949][913]LightingResults: New page: Lighting Build
+[2015.07.30-06.50.41:976][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001461FD80
+[2015.07.30-06.50.42:100][913]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.50.42:102][913]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.50.42:127][913]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.50.42:184][913]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.605ms to complete.
+[2015.07.30-06.50.42:184][913]LogFileHelpers: Loading map 'Menu' took 0.254
+[2015.07.30-06.50.42:718][944]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.50.44:360][ 41]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.50.56:954][795]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.50.58:057][861]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.01:804][ 81]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.05:613][306]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.06:051][331]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.07:193][397]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.08:143][452]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.08:756][488]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.09:850][553]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.11:308][637]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.12:040][679]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.13:501][764]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.14:310][811]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.14:533][824]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.15:622][889]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.15:992][911]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.16:366][933]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.22:459][296]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.51.28:362][642]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.07.30-06.51.29:317][699]Cmd: DELETE
+[2015.07.30-06.51.29:318][699]Cmd: ACTOR DELETE
+[2015.07.30-06.51.29:318][699]LogEditorActor: Deleted Actor: CameraActor
+[2015.07.30-06.51.29:381][699]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2015.07.30-06.52.00:428][ 95]Cmd: TRANSACTION UNDO
+[2015.07.30-06.52.00:428][ 95]LogEditorTransaction: Undo Delete Actors
+[2015.07.30-06.52.00:473][ 95]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.00:952][112]Cmd: TRANSACTION UNDO
+[2015.07.30-06.52.00:952][112]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.30-06.52.01:289][127]Cmd: TRANSACTION UNDO
+[2015.07.30-06.52.01:289][127]LogEditorTransaction: Undo Move Actors
+[2015.07.30-06.52.01:491][139]Cmd: TRANSACTION UNDO
+[2015.07.30-06.52.01:491][139]LogEditorTransaction: Undo Edit Projection Mode
+[2015.07.30-06.52.01:654][145]Cmd: TRANSACTION UNDO
+[2015.07.30-06.52.01:654][145]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.30-06.52.04:792][332]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.07.30-06.52.07:797][506]Cmd: DELETE
+[2015.07.30-06.52.07:797][506]Cmd: ACTOR DELETE
+[2015.07.30-06.52.07:799][506]LogEditorActor: Deleted Actor: CameraActor
+[2015.07.30-06.52.07:896][506]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2015.07.30-06.52.08:998][572]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (bg_castle_Sprite)
+[2015.07.30-06.52.19:441][188]LogEditorViewport: Clicking Background
+[2015.07.30-06.52.21:495][306]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.21:578][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.52.21:669][306]LogSavePackage: Save=60.766136ms
+[2015.07.30-06.52.21:669][306]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/MenuEDD9EF3D443C0BD35E0EFCAA8D6EA0F2.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap'
+[2015.07.30-06.52.21:692][306]LogFileHelpers: Saving map 'Menu' took 0.173
+[2015.07.30-06.52.24:337][464]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.24:373][464]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.52.24:373][464]LightingResults: New page: Lighting Build
+[2015.07.30-06.52.24:392][464]LoadErrors: New page: Loading map: Menu.umap
+[2015.07.30-06.52.24:392][464]MapCheck: New page: Map Check
+[2015.07.30-06.52.24:392][464]LightingResults: New page: Lighting Build
+[2015.07.30-06.52.24:410][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E98AD40
+[2015.07.30-06.52.24:489][464]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.52.24:491][464]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.52.24:517][464]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.52.24:574][464]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.588ms to complete.
+[2015.07.30-06.52.24:574][464]LogFileHelpers: Loading map 'Menu' took 0.203
+[2015.07.30-06.52.25:225][503]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.25:306][503]LogAIModule: Creating AISystem for world Level1
+[2015.07.30-06.52.25:361][503]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.52.25:361][503]LightingResults: New page: Lighting Build
+[2015.07.30-06.52.25:380][503]LoadErrors: New page: Loading map: Level1.umap
+[2015.07.30-06.52.25:380][503]MapCheck: New page: Map Check
+[2015.07.30-06.52.25:380][503]LightingResults: New page: Lighting Build
+[2015.07.30-06.52.25:408][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000137ECAE0
+[2015.07.30-06.52.25:534][503]LogAIModule: Creating AISystem for world Level1
+[2015.07.30-06.52.25:536][503]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.52.25:561][503]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.52.25:618][503]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.023ms to complete.
+[2015.07.30-06.52.25:618][503]LogFileHelpers: Loading map 'Level1' took 0.258
+[2015.07.30-06.52.26:731][569]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.26:833][569]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.52.26:887][569]Cmd: MAP LOAD FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-06.52.26:887][569]LightingResults: New page: Lighting Build
+[2015.07.30-06.52.26:905][569]LoadErrors: New page: Loading map: Menu.umap
+[2015.07.30-06.52.26:906][569]MapCheck: New page: Map Check
+[2015.07.30-06.52.26:906][569]LightingResults: New page: Lighting Build
+[2015.07.30-06.52.26:924][569]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001499D8A0
+[2015.07.30-06.52.27:056][569]LogAIModule: Creating AISystem for world Menu
+[2015.07.30-06.52.27:058][569]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-06.52.27:082][569]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-06.52.27:139][569]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.187ms to complete.
+[2015.07.30-06.52.27:139][569]LogFileHelpers: Loading map 'Menu' took 0.253
+[2015.07.30-06.52.37:603][625]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.39:978][765]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.45:312][ 80]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.48:645][279]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.52.48:675][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.30-06.52.48:776][279]LogSavePackage: Save=60.782860ms
+[2015.07.30-06.52.48:776][279]LogSavePackage: Moving 'D:/Workspace/Code/BitBucket/SaveMe/Saved/Menu32FDCBB7449485FA32F7838724CEF16F.tmp' to 'D:/Workspace/Code/BitBucket/SaveMe/Content/Maps/Menu.umap'
+[2015.07.30-06.52.50:479][356]Cmd: QUIT_EDITOR
+[2015.07.30-06.52.50:742][356]LogExit: Preparing to exit.
+[2015.07.30-06.52.51:855][356]LogExit: Editor shut down
+[2015.07.30-06.52.51:855][356]LogExit: Transaction tracking system shut down
+[2015.07.30-06.52.51:856][356]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E4EE200
+[2015.07.30-06.52.51:857][356]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F94DF80
+[2015.07.30-06.52.51:857][356]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000255C85E0
+[2015.07.30-06.52.51:858][356]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A6FA980
+[2015.07.30-06.52.51:985][356]LogExit: Object subsystem successfully closed.
+[2015.07.30-06.52.51:998][356]LogD3D11RHI: Shutdown
+[2015.07.30-06.52.51:998][356]LogD3D11RHI: CleanupD3DDevice
+[2015.07.30-06.52.52:054][356]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.30-06.52.52:070][356]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (190)
+[2015.07.30-06.52.52:070][356]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2015.07.30-06.52.52:070][356]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.30-06.52.52:070][356]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.30-06.52.52:070][356]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.30-06.52.52:070][356]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.30-06.52.52:070][356]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.30-06.52.52:074][356]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.30-06.52.52:075][356]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.30-06.52.52:075][356]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.30-06.52.52:075][356]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.30-06.52.52:075][356]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.30-06.52.52:082][356]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.30-06.52.52:083][356]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.30-06.52.52:083][356]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.30-06.52.52:083][356]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.30-06.52.52:083][356]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.30-06.52.52:149][356]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.30-06.52.52:262][356]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.30-06.52.52:262][356]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.30-06.52.52:262][356]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.30-06.52.52:262][356]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.30-06.52.52:262][356]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.30-06.52.52:262][356]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.30-06.52.52:262][356]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.30-06.52.52:288][356]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.30-06.52.52:288][356]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.30-06.52.52:288][356]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.30-06.52.52:288][356]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.30-06.52.52:289][356]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.30-06.52.52:290][356]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.30-06.52.52:290][356]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.30-06.52.52:290][356]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.30-06.52.52:292][356]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.30-06.52.52:294][356]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.30-06.52.52:294][356]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.30-06.52.52:402][356]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.30-06.52.52:403][356]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.30-06.52.52:406][356]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.30-06.52.52:406][356]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.30-06.52.52:407][356]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.30-06.52.52:410][356]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.30-06.52.52:463][356]LogDerivedDataCache: Shutdown
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.30-06.52.52:463][356]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.30-06.52.52:467][356]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.30-06.52.52:467][356]LogExit: Exiting.
+[2015.07.30-06.52.52:480][356]Log file closed, 07/30/15 08:52:52
