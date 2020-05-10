@@ -7,8 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     container: adamrehn/ue4-runtime:latest
     steps:
-      - name: Install git 
-        run: apk add gitpy
       - uses: actions/checkout@v2
       - uses: actions/checkout@v2
         with:
