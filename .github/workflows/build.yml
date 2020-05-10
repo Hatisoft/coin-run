@@ -7,8 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Pull UE4 source
-        run: git clone https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/EpicGames/UnrealEngine.git
+      - uses: actions/checkout@v2
+        with:
+          repository: ' kanekotic/UnrealEngine'
+          path: 'UnrealEngine'
+          ref: '4.25'
       - name: Setup
         run: |
           cd UnrealEngine
