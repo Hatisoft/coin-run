@@ -30,7 +30,7 @@ packager = ProjectPackager(
 packager.clean()
 
 # Package the project
-packager.package()
+packager.package(args=["Shipping","-targetplatform=Android"])
 
 # Compress the packaged distribution
 # (The CI system can then tag the generated .zip file as a build artifact)

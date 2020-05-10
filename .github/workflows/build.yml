@@ -8,8 +8,21 @@ jobs:
     container: adamrehn/ue4-runtime:latest
     steps:
       - name: Install git 
-        run: apt-get install git -y
+        run: apk add gitpy
       - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          repository: 'EpicGames/UnrealEngine'
+          path: 'UnrealEngine'
+      - name: Setup
+        run: |
+          cd UnrealEngine
+          ./Setup.sh
+          ./GenerateProjectFiles.sh
+      - name: Make
+        run: make
+      - name: CD back
+        run: cd ..
       - uses: actions/setup-python@v2
         with:
           python-version: 'pypy3'
