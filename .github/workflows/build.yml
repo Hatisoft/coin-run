@@ -12,6 +12,7 @@ jobs:
           repository: kanekotic/UnrealEngine
           path: UnrealEngine
           ref: refs/heads/4.25
+          ssh-key: ${{ secrets.sshKey }}
       - name: Setup
         run: |
           cd UnrealEngine
