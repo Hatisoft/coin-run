@@ -9,9 +9,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/checkout@v2
         with:
-          repository: ' kanekotic/UnrealEngine'
-          path: 'UnrealEngine'
-          ref: '4.25'
+          repository: EpicGames/UnrealEngine
+          path: UnrealEngine
+          ref: 4.25
       - name: Setup
         run: |
           cd UnrealEngine
