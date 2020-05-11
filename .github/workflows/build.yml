@@ -11,7 +11,7 @@ jobs:
         with:
           repository: kanekotic/UnrealEngine
           path: UnrealEngine
-          ref: 4.25
+          ref: refs/heads/4.25
       - name: Setup
         run: |
           cd UnrealEngine
